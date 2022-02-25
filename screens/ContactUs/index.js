@@ -5,17 +5,18 @@ import {
   KeyboardAvoidingView,
   Platform,
   ScrollView,
-  SafeAreaView,
   Text,
   TextInput,
 } from 'react-native';
 import styles from './styles';
+import {BaseStyle} from '../../config/BaseStyle';
 import Button from '../../components/Button';
+import {SafeAreaView} from 'react-native-safe-area-context';
 
 export default function ContactUs({navigation}) {
   const offsetKeyboard = Platform.select({
     ios: 0,
-    android: 0,
+    android: 70,
   });
 
   const [firstname, setFirstname] = useState('');
@@ -65,53 +66,57 @@ export default function ContactUs({navigation}) {
   };
 
   return (
-    <KeyboardAvoidingView
-      behavior={Platform.OS === 'android' ? 'height' : 'padding'}
-      keyboardVerticalOffset={offsetKeyboard}
-      style={styles.container}>
-      <ScrollView
-        contentContainerStyle={{
-          paddingHorizontal: 20,
-          paddingVertical: 8,
-        }}>
-        <View style={{height: 50}}>
-          <Text style={styles.tabBarInfoText}>
-            Vous avez des remarques, suggestions à nous faire ? Ecrivez-nous !
-          </Text>
-        </View>
-        <TextInput
-          onChangeText={text => setLastname(text)}
-          placeholder="Nom"
-          success={success.lastname}
-          value={lastname}
-          style={styles.textinput}
-        />
-        <TextInput
-          onChangeText={text => setFirstname(text)}
-          placeholder="Prénom"
-          success={success.firstname}
-          value={firstname}
-          style={styles.textinput}
-        />
-        <TextInput
-          style={styles.textinputMessage}
-          onChangeText={text => setMessage(text)}
-          textAlignVertical="top"
-          multiline={true}
-          placeholder="Message"
-          success={success.message}
-          value={message}
-        />
+    <SafeAreaView style={BaseStyle.safeAreaView} edges={['right', 'left']}>
+      <KeyboardAvoidingView
+        behavior={Platform.OS === 'android' ? 'height' : 'padding'}
+        keyboardVerticalOffset={offsetKeyboard}
+        style={styles.container}>
+        <ScrollView
+          contentContainerStyle={{
+            paddingHorizontal: 20,
+            paddingVertical: 5,
+          }}>
+          <View style={{height: 50}}>
+            <Text style={styles.tabBarInfoText}>
+              Vous avez des remarques, suggestions à nous faire ? Ecrivez-nous !
+            </Text>
+          </View>
+          <TextInput
+            onChangeText={text => setLastname(text)}
+            placeholder="Nom"
+            success={success.lastname}
+            value={lastname}
+            style={styles.textinput}
+          />
+          <TextInput
+            onChangeText={text => setFirstname(text)}
+            placeholder="Prénom"
+            success={success.firstname}
+            value={firstname}
+            style={styles.textinput}
+          />
+          <TextInput
+            style={styles.textinputMessage}
+            onChangeText={text => setMessage(text)}
+            textAlignVertical="top"
+            multiline={true}
+            placeholder="Message"
+            success={success.message}
+            value={message}
+          />
+
+        </ScrollView>
+        <View style={{paddingVertical: 15, paddingHorizontal: 20}}>
         <Button
-          loading={loading}
-          style={styles.button}
-          name="Envoyer"
-          onPress={() => {
-            onSubmit();
-          }}
-        />
-      </ScrollView>
-      <View></View>
-    </KeyboardAvoidingView>
+            loading={loading}
+            style={styles.button}
+            name="Envoyer"
+            onPress={() => {
+              onSubmit();
+            }}
+          />
+        </View>
+      </KeyboardAvoidingView>
+    </SafeAreaView>
   );
 }

@@ -26,7 +26,7 @@ export default function NavigationTab() {
       <MainStack.Screen
         name="ContactUs"
         component={ContactUs}
-        options={{headerShown: true, title: ''}}
+        options={{headerShown: true, title: 'Nous contacter'}}
       />
     </MainStack.Navigator>
   );

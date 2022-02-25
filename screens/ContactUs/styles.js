@@ -4,7 +4,7 @@ import {StyleSheet, Platform} from 'react-native';
 export default StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 35,
+    paddingTop: 20,
 
     ...Platform.select({
       ios: {
@@ -90,7 +90,7 @@ export default StyleSheet.create({
     backgroundColor: 'white',
     borderRadius: 5,
     color: '#061646',
-    fontSize: 15,
+    fontSize: 13,
   },
   textinputMessage: {
     marginLeft: 5,
@@ -99,11 +99,11 @@ export default StyleSheet.create({
     borderWidth: 2,
     paddingLeft: 5,
     marginTop: 10,
-    height: 120,
+    height: 118,
     backgroundColor: 'white',
     borderRadius: 5,
     color: '#061646',
-    fontSize: 15,
+    fontSize: 13,
   },
 
   loading_container: {
@@ -136,7 +136,7 @@ export default StyleSheet.create({
     marginTop: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    fontSize: 16,
+    fontSize: 14,
     color: '#061646',
     textAlign: 'center',
     marginBottom: 10,

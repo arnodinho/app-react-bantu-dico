@@ -4,6 +4,7 @@ import ProfileDescription from '../../components/ProfileDescription';
 import Button from '../../components/Button';
 import {ScrollView, View, Text} from 'react-native';
 import styles from './styles';
+import ShareButton from '../../components/ShareButton';
 const ourTeam = [
   {
     id: '1',
@@ -45,6 +46,7 @@ export default function AboutUsScreen({navigation}) {
         </Text>
       </View>
       <View style={styles.credits}>
+        <ShareButton name={'share-alt'} size={25} color={'#FFFFFF'} />
         <Text style={styles.tabBarInfoTitle}>Notre équipe</Text>
       </View>
       <View style={{paddingHorizontal: 20}}>

@@ -104,10 +104,9 @@ export default function ContactUs({navigation}) {
             success={success.message}
             value={message}
           />
-
         </ScrollView>
         <View style={{paddingVertical: 15, paddingHorizontal: 20}}>
-        <Button
+          <Button
             loading={loading}
             style={styles.button}
             name="Envoyer"

@@ -8,6 +8,7 @@ import {
   Text,
   TextInput,
   Alert,
+  Keyboard,
 } from 'react-native';
 import styles from './styles';
 import {BaseStyle} from '../../config/BaseStyle';
@@ -49,6 +50,8 @@ export default function AddScreen() {
           [{text: 'OK', onPress: () => console.log('OK Pressed')}],
           {cancelable: true},
         );
+        // Hide that keyboard!
+        Keyboard.dismiss();
       });
     }
   };
@@ -61,7 +64,6 @@ export default function AddScreen() {
         <ScrollView
           contentContainerStyle={{
             paddingHorizontal: 20,
-            paddingVertical: 1,
           }}>
           <View style={styles.main}>
             <Text style={styles.tabBarInfoTitle}>
@@ -134,17 +136,17 @@ export default function AddScreen() {
               </View>
             </View>
           </View>
-          <View style={{paddingVertical: 5, paddingHorizontal: 20}}>
-            <Button
-              loading={loading}
-              style={styles.button}
-              name="Ajouter"
-              onPress={() => {
-                onSubmit();
-              }}
-            />
-          </View>
         </ScrollView>
+        <View style={{marginBottom: 60, paddingHorizontal: 2}}>
+          <Button
+            loading={loading}
+            style={styles.button}
+            name="Ajouter"
+            onPress={() => {
+              onSubmit();
+            }}
+          />
+        </View>
       </KeyboardAvoidingView>
     </SafeAreaView>
   );

@@ -72,7 +72,7 @@ function BottomTabNavigator() {
         name="Add"
         component={AddScreen}
         options={{
-          title: 'Ajout',
+          title: 'Ajout de traduction',
           tabBarIcon: ({focused}) => {
             return (
               <Icon

@@ -15,7 +15,6 @@ import {BaseStyle} from '../../config/BaseStyle';
 import Button from '../../components/Button';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {Picker} from '@react-native-picker/picker';
-import AlertComponent from '../../components/AlertComponent';
 import {createTranslation} from '../../apis';
 
 export default function AddScreen() {

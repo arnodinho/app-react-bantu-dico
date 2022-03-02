@@ -3,7 +3,7 @@ import HomeScreen from '../screens/HomeScreen';
 import AddScreen from '../screens/AddScreen';
 import AboutUsScreen from '../screens/AboutUsScreen';
 import ContactUs from '../screens/ContactUs';
-import ListScreen from '../screens/AddScreen';
+import ListScreen from '../screens/ListScreen';
 import Icon from '../components/TabBarIcon';
 
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
@@ -60,7 +60,7 @@ function BottomTabNavigator() {
         name="List"
         component={ListScreen}
         options={{
-          title: 'Expressions',
+          title: 'Expressions courantes',
           tabBarIcon: ({focused}) => {
             return (
               <Icon focused={focused} name="book" size={30} color="#900" />

@@ -19,7 +19,7 @@ export default StyleSheet.create({
     backgroundColor: 'transparent',
   },
   default: {
-    height: 46,
+    height: 56,
     borderRadius: 8,
     flexDirection: 'row',
     paddingHorizontal: 6,

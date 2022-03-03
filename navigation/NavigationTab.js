@@ -48,6 +48,7 @@ function BottomTabNavigator() {
         name="Home"
         component={HomeScreen}
         options={{
+          headerShown: false,
           title: 'Accueil',
           tabBarIcon: ({focused}) => {
             return (

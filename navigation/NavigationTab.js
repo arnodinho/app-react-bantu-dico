@@ -4,6 +4,7 @@ import AddScreen from '../screens/AddScreen';
 import AboutUsScreen from '../screens/AboutUsScreen';
 import ContactUs from '../screens/ContactUs';
 import ListScreen from '../screens/ListScreen';
+import Autocomplete from '../screens/Autocomplete';
 import Icon from '../components/TabBarIcon';
 
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
@@ -27,6 +28,12 @@ export default function NavigationTab() {
         name="ContactUs"
         component={ContactUs}
         options={{headerShown: true, title: 'Nous contacter'}}
+      />
+
+      <MainStack.Screen
+        name="Autocomplete"
+        component={Autocomplete}
+        options={{headerShown: true, title: 'Rechercher'}}
       />
     </MainStack.Navigator>
   );

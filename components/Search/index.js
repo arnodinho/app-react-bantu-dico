@@ -1,13 +1,12 @@
 import React from 'react';
 import {TouchableOpacity, Text, View, TextInput, Image} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
-import {Picker} from '@react-native-picker/picker';
 import {ImagesUrl} from '../../config/ImagesUrl';
 import styles from './styles';
-import Button from '../Button';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 export default function Search(props) {
-  const {onPress, name, style, loading, outline} = props;
+  const {nav, onPress, name, style, loading, outline} = props;
   return (
     <View style={styles.searchModuleContainer}>
       <View style={styles.containerTitle}>
@@ -15,21 +14,21 @@ export default function Search(props) {
         <Text style={styles.infoTitle}>Français - Lingala - Sango</Text>
       </View>
 
-      <View style={styles.containerSearch}>
+      <TouchableOpacity
+        style={styles.containerSearch}
+        onPress={() => {
+          console.log(nav.navigate('Autocomplete'));
+        }}>
         {/* onSubmitEditing : validation text par le clavier*/}
 
         <View style={{flex: 4}}>
-          <TextInput
-            style={styles.textinput}
-            placeholder="Barre de recherche"
-          />
+          <Text style={[styles.textinput, {color: '#c5c2c2'}]}>
+            Barre de recherche
+          </Text>
           <View style={styles.searchSelect}>
             <View style={styles.searchItem}>
-              <Picker selectedValue="sango" style={{height: 50, width: 125}}>
-                <Picker.Item label="Français" value="french" />
-                <Picker.Item label="Sango" value="sango" />
-                <Picker.Item label="Lingala" value="lingala" />
-              </Picker>
+              <Text style={styles.translationText}>Français</Text>
+              <Icon name="caret-down" size={25} />
             </View>
             <View style={styles.searchArrow}>
               <View>
@@ -37,22 +36,19 @@ export default function Search(props) {
               </View>
             </View>
             <View style={styles.searchItem}>
-              <Picker selectedValue="lingala" style={{height: 50, width: 125}}>
-                <Picker.Item label="Français" value="french" />
-                <Picker.Item label="Sango" value="sango" />
-                <Picker.Item label="Lingala" value="lingala" />
-              </Picker>
+              <Text style={styles.translationText}>Lingala</Text>
+              <Icon name="caret-down" size={25} />
             </View>
           </View>
         </View>
-        <TouchableOpacity style={{alignItems: 'center'}}>
+        <View>
           <LinearGradient
             colors={['#4c669f', '#3b5998', '#192f6a']}
             style={styles.gradient}>
             <Text style={styles.buttonText}>Chercher</Text>
           </LinearGradient>
-        </TouchableOpacity>
-      </View>
+        </View>
+      </TouchableOpacity>
     </View>
   );
 }

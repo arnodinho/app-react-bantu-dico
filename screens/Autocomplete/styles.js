@@ -1,15 +1,28 @@
 import {StyleSheet, Platform} from 'react-native';
 
 export default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#d0d6d2',
+    borderColor: '#214c98',
+    borderWidth: 7,
+    marginLeft: 5,
+    marginRight: 5,
+
+    marginBottom: 15,
+  },
   searchModuleContainer: {
     // container parent du containerSearch
-    flex: 2,
-    marginTop: 15,
+    flex: 3,
+    backgroundColor: '#c9c7a9',
+  },
+  resultModuleContainer: {
+    marginTop: 5,
+    flex: 6,
     backgroundColor: '#eee',
   },
-
   resultsModuleContainer: {
-    flex: 7,
+    flex: 5,
     backgroundColor: '#eee',
   },
   containerSearch: {
@@ -21,7 +34,6 @@ export default StyleSheet.create({
   },
 
   containerTitle: {
-    marginTop: 10,
     height: 85,
     backgroundColor: '#eee',
     alignItems: 'center',
@@ -58,9 +70,11 @@ export default StyleSheet.create({
     fontWeight: 'bold',
   },
   searchSelect: {
-    marginTop: 12,
     backgroundColor: '#eee',
     flexDirection: 'row',
+    marginTop: 15,
+    marginLeft: 10,
+    marginRight: 10,
   },
   searchButton: {
     flex: 1,
@@ -70,10 +84,9 @@ export default StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     flex: 4,
-    flexDirection: 'row',
   },
   searchArrow: {
-    flex: 1,
+    flex: 2,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -84,11 +97,10 @@ export default StyleSheet.create({
     height: 50,
     borderColor: '#214c98',
     borderWidth: 2,
-    paddingLeft: 10,
-    paddingTop: 5,
-    color: 'white',
+    paddingLeft: 5,
     backgroundColor: 'white',
     borderRadius: 5,
+    color: '#061646',
     fontSize: 20,
   },
 
@@ -112,42 +124,50 @@ export default StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  containerHeaderLogo: {
-    backgroundColor: '#eee',
-    alignItems: 'center',
+  optionsTitleText: {
+    fontSize: 26,
+    marginLeft: 15,
+    marginTop: 9,
+    marginBottom: 12,
+  },
+  optionSection: {
+    backgroundColor: '#fdfdfd',
+    paddingHorizontal: 15,
+    paddingVertical: 15,
+    borderBottomWidth: 2,
+    borderBottomColor: '#EDEDED',
+    paddingBottom: 2,
+    fontSize: 30,
+    fontWeight: 'bold',
+  },
+  optionIconContainer: {
+    marginRight: 9,
+  },
+  optionTextContainer: {
     flex: 1,
-    borderWidth: 1,
-    borderRadius: 2,
-    borderColor: '#ddd',
-    borderBottomWidth: 0,
-    shadowColor: '#000',
-    shadowOffset: {height: -3},
-    shadowOpacity: 0.5,
-    shadowRadius: 2,
-    elevation: 1,
+    justifyContent: 'center',
   },
-  button: {
-    flex: 1,
-    paddingLeft: 1,
-    paddingRight: 1,
+  option: {
+    backgroundColor: '#fdfdfd',
+    paddingHorizontal: 15,
+    paddingVertical: 15,
+    borderBottomWidth: 2,
+    borderBottomColor: '#EDEDED',
+    paddingBottom: 2,
+    height: 60,
   },
-  buttonText: {
-    backgroundColor: 'transparent',
-    fontSize: 15,
-    color: '#fff',
+  optionText: {
+    margin: 2,
+    marginTop: 1,
+    textAlign: 'left',
+    fontSize: 20,
   },
-  gradient: {
-    paddingTop: 35,
-    paddingBottom: 35,
-    paddingLeft: 15,
-    paddingRight: 15,
-    alignItems: 'center',
-    borderRadius: 5,
-  },
-  translationText: {
-    fontSize: 13,
-    color: '#061646',
-    width: 75,
+  optionTextSection: {
+    margin: 2,
+    marginTop: 1,
+    marginBottom: 1,
+    textAlign: 'center',
+    fontSize: 30,
     fontWeight: 'bold',
   },
 });

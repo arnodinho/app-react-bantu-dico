@@ -22,7 +22,7 @@ export default function HomeScreen({navigation}) {
           <Image style={{height: 92}} source={ImagesUrl.header} />
         </View>
         <View style={styles.containerMain}>
-          <Search nav={navigation} />
+          <Search navigation={navigation} />
           <Translation />
         </View>
       </KeyboardAvoidingView>

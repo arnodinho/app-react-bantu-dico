@@ -85,7 +85,14 @@ export default function Autocomplete({navigation}) {
               renderItem={({item}) => (
                 <ListItem
                   definition={item}
-                  onPress={() => console.log({item})}
+                  onPress={() =>
+                    navigation.navigate('Home', {
+                      id: item.id,
+                      source: source,
+                      target: target,
+                      definition: item.word,
+                    })
+                  }
                 />
               )}
             />

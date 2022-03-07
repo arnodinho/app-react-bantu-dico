@@ -6,7 +6,8 @@ import styles from './styles';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 export default function Search(props) {
-  const {navigation, onPress, name, style, loading, outline} = props;
+  const {navigation, params} = props;
+
   return (
     <View style={styles.searchModuleContainer}>
       <View style={styles.containerTitle}>
@@ -22,12 +23,15 @@ export default function Search(props) {
         {/* onSubmitEditing : validation text par le clavier*/}
 
         <View style={{flex: 4}}>
-          <Text style={[styles.textinput, {color: '#c5c2c2'}]}>
-            Barre de recherche
+          <Text
+            style={[styles.textinput, params ? styles.textinputSetted : null]}>
+            {params ? params.definition : 'Barre de recherche'}
           </Text>
           <View style={styles.searchSelect}>
             <View style={styles.searchItem}>
-              <Text style={styles.translationText}>Français</Text>
+              <Text style={styles.translationText}>
+                {params ? params.source : 'Français'}
+              </Text>
               <Icon name="caret-down" size={25} />
             </View>
             <View style={styles.searchArrow}>
@@ -36,7 +40,9 @@ export default function Search(props) {
               </View>
             </View>
             <View style={styles.searchItem}>
-              <Text style={styles.translationText}>Lingala</Text>
+              <Text style={styles.translationText}>
+                {params ? params.target : 'Lingala'}
+              </Text>
               <Icon name="caret-down" size={25} />
             </View>
           </View>

@@ -8,16 +8,17 @@ import {
   TouchableOpacity,
   Text,
   FlatList,
+  Keyboard,
 } from 'react-native';
 import styles from './styles';
 import {SafeAreaView} from 'react-native-safe-area-context';
-import SearchAutocomplete from '../../components/SearchAutocomplete';
 import ListItem from '../../components/ListItem';
 import Loupe from '../../components/Loupe';
 import {search} from '../../apis';
 import {Picker} from '@react-native-picker/picker';
 import {ImagesUrl} from '../../config/ImagesUrl';
 import LinearGradient from 'react-native-linear-gradient';
+import LoadingScreen from '../LoadingScreen';
 export default function Autocomplete({navigation}) {
   const offsetKeyboard = Platform.select({
     ios: 0,
@@ -25,29 +26,74 @@ export default function Autocomplete({navigation}) {
   });
   const [target, setTarget] = useState('lingala');
   const [source, setSource] = useState('french');
+  const [definition, setDefinition] = useState('');
   const [showResult, setShowResult] = useState(false);
   const [listAutocomplete, setListAutocomplete] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const onSubmit = () => {};
+  const onSubmit = () => {
+    console.log('Bouton pressed');
+    if (definition == '') {
+      console.log('empty definition: nothing to do ');
+    } else {
+      setLoading(true);
+      search(definition, source).then(data => {
+        console.log(data);
+        setLoading(false);
+        setListAutocomplete(data);
+        setShowResult(true);
+        // Hide that keyboard!
+        Keyboard.dismiss();
+      });
+    }
+  };
+  const autocomplete = text => {
+    setDefinition(text);
+    if (text.length > 2) {
+      setLoading(true);
+      search(text, source).then(data => {
+        console.log(data);
+        setListAutocomplete(data);
+        setLoading(false);
+        setShowResult(true);
+      });
+    }
+  };
+
   /**
    * render content
    *
    */
   const renderContent = () => {
-    if (showResult) {
+    if (loading) {
       return (
         <View style={styles.resultModuleContainer}>
-          <FlatList
-            data={listAutocomplete}
-            keyExtractor={item => item.id.toString()}
-            renderItem={({item}) => (
-              <ListItem definition={item} onPress={() => console.log({item})} />
-            )}
-          />
+          <LoadingScreen />
+        </View>
+      );
+    } else if (showResult && listAutocomplete.length > 0) {
+      console.log('nombre de results ' + listAutocomplete.length);
+      console.log('resultats autocomplete disponible');
+      return (
+        <View style={styles.resultModuleContainer}>
+          {loading ? (
+            <LoadingScreen />
+          ) : (
+            <FlatList
+              data={listAutocomplete}
+              keyExtractor={item => item.id.toString()}
+              renderItem={({item}) => (
+                <ListItem
+                  definition={item}
+                  onPress={() => console.log({item})}
+                />
+              )}
+            />
+          )}
         </View>
       );
     }
+
     return <Loupe />;
   };
   return (
@@ -65,7 +111,7 @@ export default function Autocomplete({navigation}) {
               <TextInput
                 style={styles.textinput}
                 placeholder="Barre de recherche"
-                onChangeText={text => this._searchTextInputChanged(text)}
+                onChangeText={text => autocomplete(text)}
                 autoFocus={true}
                 onSubmitEditing={() => {
                   onSubmit();

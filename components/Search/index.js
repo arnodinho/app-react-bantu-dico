@@ -6,7 +6,7 @@ import styles from './styles';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 export default function Search(props) {
-  const {nav, onPress, name, style, loading, outline} = props;
+  const {navigation, onPress, name, style, loading, outline} = props;
   return (
     <View style={styles.searchModuleContainer}>
       <View style={styles.containerTitle}>
@@ -17,7 +17,7 @@ export default function Search(props) {
       <TouchableOpacity
         style={styles.containerSearch}
         onPress={() => {
-          console.log(nav.navigate('Autocomplete'));
+          console.log(navigation.navigate('Autocomplete'));
         }}>
         {/* onSubmitEditing : validation text par le clavier*/}
 

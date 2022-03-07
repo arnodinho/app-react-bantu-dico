@@ -1,36 +1,6 @@
 import {StyleSheet, Platform} from 'react-native';
 
 export default StyleSheet.create({
-  wrapperContainer: {
-    flex: 1,
-    ...Platform.select({
-      ios: {
-        shadowColor: 'black',
-        shadowOffset: {height: -3},
-        shadowOpacity: 0.1,
-        shadowRadius: 3,
-      },
-      android: {
-        elevation: 20,
-      },
-    }),
-    backgroundColor: '#d0d6d2',
-    borderColor: '#214c98',
-    borderWidth: 7,
-    marginLeft: 5,
-    marginRight: 5,
-    marginTop: 15,
-    marginBottom: 15,
-  },
-  mainContainer: {
-    flex: 1,
-   // backgroundColor: '#eee',
-  },
-  resultModuleContainer: {
-    marginTop: 5,
-    flex: 1,
-    backgroundColor: '#eee',
-  },
   searchModuleContainer: {
     // container parent du containerSearch
     flex: 2,
@@ -115,7 +85,7 @@ export default StyleSheet.create({
     borderWidth: 2,
     paddingLeft: 10,
     paddingTop: 5,
-    color: '#061646',
+    color: 'white',
     backgroundColor: 'white',
     borderRadius: 5,
     fontSize: 20,
@@ -178,9 +148,5 @@ export default StyleSheet.create({
     color: '#061646',
     width: 75,
     fontWeight: 'bold',
-  },
-  picker: {
-    height: 50,
-    width: 141,
   },
 });

@@ -1,8 +1,8 @@
 import React from 'react';
-import {View, Text, TouchableOpacity} from 'react-native';
+import {View, Text, TouchableOpacity, Image} from 'react-native';
 import styles from './styles';
 import {Parameter} from '../../config/Parameter';
-
+import {ImagesUrl} from '../../config/ImagesUrl';
 import Button from '../Button';
 export default function Translation(props) {
   const {size, name, style, color} = props;
@@ -17,7 +17,7 @@ export default function Translation(props) {
           </View>
           <View
             style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-            <Text style={styles.tabBarInfoText}>DDD</Text>
+            <Text style={styles.tabBarInfoText}>Sango</Text>
           </View>
         </View>
 
@@ -26,10 +26,12 @@ export default function Translation(props) {
             style={{flex: 3, alignItems: 'center', justifyContent: 'center'}}>
             <Text style={styles.textDefinition}>Sango</Text>
           </View>
-          <View style={{flex: 1, justifyContent: 'center'}}></View>
+          <View style={{flex: 1, justifyContent: 'center'}}>
+           <Image source={ImagesUrl.transfert} />
+          </View>
           <View
             style={{flex: 3, alignItems: 'center', justifyContent: 'center'}}>
-            <Text style={styles.textDefinition}>CCC</Text>
+            <Text style={styles.textDefinition}>Sango</Text>
           </View>
         </View>
 

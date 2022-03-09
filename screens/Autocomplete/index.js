@@ -38,13 +38,10 @@ export default function Autocomplete({navigation, route}) {
       console.log('empty definition: nothing to do ');
     } else {
       setLoading(true);
-      search(definition, source).then(data => {
-        console.log(data);
-        setLoading(false);
-        setListAutocomplete(data);
-        setShowResult(true);
-        // Hide that keyboard!
-        Keyboard.dismiss();
+      navigation.navigate('Home', {
+        source: source,
+        target: target,
+        definition: definition,
       });
     }
   };
@@ -121,9 +118,7 @@ export default function Autocomplete({navigation, route}) {
                 placeholder="Barre de recherche"
                 onChangeText={text => autocomplete(text)}
                 autoFocus={true}
-                onSubmitEditing={() => {
-                  onSubmit();
-                }}
+                onSubmitEditing={() => onSubmit()}
               />
               <View style={styles.searchSelect}>
                 <View style={styles.searchItem}>
@@ -153,7 +148,6 @@ export default function Autocomplete({navigation, route}) {
                     <Picker.Item label="Lingala" value="lingala" />
                     <Picker.Item label="Français" value="french" />
                     <Picker.Item label="Sango" value="sango" />
-                    
                   </Picker>
                 </View>
               </View>

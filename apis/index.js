@@ -42,3 +42,45 @@ export function search(text, language) {
     .then(response => response.json())
     .catch(error => console.error(error));
 }
+
+export function searchTraduction(text, source, target) {
+  let translate = 'frenchlingala';
+  let identifier = 'french_id';
+  switch (source) {
+    case 'french':
+      translate = target === 'sango' ? 'frenchsango' : 'frenchlingala';
+      identifier = 'french_id';
+      break;
+    case 'sango':
+      translate = 'frenchsango';
+      identifier = 'sango_id';
+      break;
+    default:
+      translate = 'frenchlingala';
+      identifier = 'lingala_id';
+  }
+  let url = 'https://bantu-dico.com/api/' + translate + '/search';
+  return fetch(url, {
+    method: 'POST',
+    headers: {
+      Accept: 'application/json',
+      'Content-Type': 'application/json',
+      'X-Auth-Token': API_TOKEN,
+    },
+    body: JSON.stringify({
+      identifier: identifier,
+      search: text,
+    }),
+  })
+    .then(response => response.json())
+    .catch(error => console.error(error));
+}
+
+export function randomTranslation(language) {
+  var min = 1;
+  var max = 250;
+  var id = Math.floor(Math.random() * (+max - +min)) + +min;
+  var trad = language == 'lingala' ? dataLingala[id] : dataSango[id];
+
+  return trad;
+}

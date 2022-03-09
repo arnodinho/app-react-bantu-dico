@@ -19,18 +19,19 @@ import {Picker} from '@react-native-picker/picker';
 import {ImagesUrl} from '../../config/ImagesUrl';
 import LinearGradient from 'react-native-linear-gradient';
 import LoadingScreen from '../LoadingScreen';
-export default function Autocomplete({navigation}) {
+export default function Autocomplete({navigation, route}) {
   const offsetKeyboard = Platform.select({
     ios: 0,
     android: 70,
   });
-  const [target, setTarget] = useState('lingala');
-  const [source, setSource] = useState('french');
+  const [source, setSource] = useState(route.params.source);
+  const [target, setTarget] = useState(route.params.target);
   const [definition, setDefinition] = useState('');
   const [showResult, setShowResult] = useState(false);
   const [listAutocomplete, setListAutocomplete] = useState('');
   const [loading, setLoading] = useState(false);
 
+  console.log(route.params.source, target);
   const onSubmit = () => {
     console.log('Bouton pressed');
     if (definition == '') {
@@ -149,9 +150,10 @@ export default function Autocomplete({navigation}) {
                     onValueChange={(itemValue, itemIndex) =>
                       setTarget(itemValue)
                     }>
+                    <Picker.Item label="Lingala" value="lingala" />
                     <Picker.Item label="Français" value="french" />
                     <Picker.Item label="Sango" value="sango" />
-                    <Picker.Item label="Lingala" value="lingala" />
+                    
                   </Picker>
                 </View>
               </View>

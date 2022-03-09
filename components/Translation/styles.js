@@ -34,6 +34,12 @@ export default StyleSheet.create({
     textAlign: 'center',
     fontWeight: 'bold',
   },
+  frown: {
+    paddingTop: 50,
+    flex: 1,
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+  },
   textDefinition: {
     marginTop: 1,
     justifyContent: 'center',
@@ -99,5 +105,15 @@ export default StyleSheet.create({
   gradient: {
     paddingTop: 5,
     paddingBottom: 5,
+  },
+
+  buttonAdd: {
+    flex: 1,
+    alignItems: 'center',
+    paddingLeft: 75,
+    paddingRight: 75,
+  },
+  textAdd: {
+    fontSize: 15,
   },
 });

@@ -1,6 +1,6 @@
 //C'est une très bonne pratique de séparer la logique API du reste de l'application.
-import dataLingala from '../Helpers/FrenchLingala';
-import dataSango from '../Helpers/FrenchSango';
+import * as frenchLingala from '../Helpers/FrenchLingala';
+import * as frenchSango from '../Helpers/FrenchSango';
 const API_TOKEN =
   'T/6wiLml8CM8yiuAxl0NJurKWQvb6JW4ttSN1XMLzZeJFwHmVpf0CWO79E5AsTegFec=';
 
@@ -76,11 +76,15 @@ export function searchTraduction(text, source, target) {
     .catch(error => console.error(error));
 }
 
+//retourne une translation random en fonction du language
 export function randomTranslation(language) {
   var min = 1;
   var max = 250;
   var id = Math.floor(Math.random() * (+max - +min)) + +min;
-  var trad = language == 'lingala' ? dataLingala[id] : dataSango[id];
+  var translation =
+    language === 'lingala'
+      ? frenchLingala.FRENCH_LINGALA[id]
+      : frenchSango.FRENCH_SANGO[id];
 
-  return trad;
+  return [translation];
 }

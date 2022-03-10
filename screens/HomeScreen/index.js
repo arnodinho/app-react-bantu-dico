@@ -14,14 +14,17 @@ import Translation from '../../components/Translation';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import LinearGradient from 'react-native-linear-gradient';
-import {searchTraduction} from '../../apis';
+import {searchTraduction, randomTranslation} from '../../apis';
 import LoadingScreen from '../LoadingScreen';
 import SearchItem from '../../components/SearchItem';
 export default function HomeScreen({route, navigation}) {
-  const [loading, setLoading] = useState(false);
-  const [translations, setTranslations] = useState('');
   const [source, setSource] = useState('french');
   const [target, setTarget] = useState('lingala');
+  const [loading, setLoading] = useState(false);
+  const [translations, setTranslations] = useState(
+    randomTranslation('lingala'),
+  );
+
   const offsetKeyboard = Platform.select({
     ios: 0,
     android: 70,
@@ -42,6 +45,7 @@ export default function HomeScreen({route, navigation}) {
         //console.log(data);
       });
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [route.params?.definition, route.params?.source, route.params?.target]);
 
   const handleTranslations = () => {
@@ -51,8 +55,8 @@ export default function HomeScreen({route, navigation}) {
         return (
           <Translation
             data={translations[0]}
-            source={route.params.source}
-            target={route.params.target}
+            source={source}
+            target={target}
             navigation={navigation}
           />
         );

@@ -146,8 +146,8 @@ export default function Autocomplete({navigation, route}) {
                       setTarget(itemValue)
                     }>
                     <Picker.Item label="Lingala" value="lingala" />
-                    <Picker.Item label="Français" value="french" />
                     <Picker.Item label="Sango" value="sango" />
+                    <Picker.Item label="Français" value="french" />
                   </Picker>
                 </View>
               </View>

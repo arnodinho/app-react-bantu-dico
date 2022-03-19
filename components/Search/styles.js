@@ -150,5 +150,6 @@ export default StyleSheet.create({
     color: '#061646',
     width: 75,
     fontWeight: 'bold',
+    textTransform: 'capitalize',
   },
 });

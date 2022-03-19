@@ -5,7 +5,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import {ImagesUrl} from '../../config/ImagesUrl';
 import Button from '../Button';
 export default function Translation(props) {
-  const {source, target, data, navigation} = props;
+  const {source, target, data, navigation, onPress} = props;
 
   const renderTranstion = () => {
     return (
@@ -14,7 +14,9 @@ export default function Translation(props) {
           <View style={styles.resulLangage}>
             <View
               style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-              <Text style={styles.tabBarInfoText}>{source}</Text>
+              <Text style={styles.tabBarInfoText}>
+                {source === 'french' ? 'Français' : source}
+              </Text>
             </View>
             <View
               style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
@@ -45,6 +47,7 @@ export default function Translation(props) {
           name="Aléatoire"
           style={styles.button}
           styleGradient={styles.gradient}
+          onPress={onPress}
         />
       </View>
     );
@@ -80,6 +83,7 @@ export default function Translation(props) {
           name="Aléatoire"
           style={styles.button}
           styleGradient={styles.gradient}
+          onPress={onPress}
         />
       </View>
     );

@@ -33,6 +33,7 @@ export default StyleSheet.create({
     color: '#061646',
     textAlign: 'center',
     fontWeight: 'bold',
+    textTransform: 'capitalize',
   },
   frown: {
     paddingTop: 50,

@@ -4,7 +4,6 @@ import {
   Image,
   Platform,
   KeyboardAvoidingView,
-  TouchableOpacity,
   Text,
   FlatList,
 } from 'react-native';
@@ -12,11 +11,10 @@ import {ImagesUrl} from '../../config/ImagesUrl';
 import styles from './styles';
 import Translation from '../../components/Translation';
 import {SafeAreaView} from 'react-native-safe-area-context';
-import Icon from 'react-native-vector-icons/FontAwesome';
-import LinearGradient from 'react-native-linear-gradient';
 import {searchTraduction, randomTranslation} from '../../apis';
 import LoadingScreen from '../LoadingScreen';
 import SearchItem from '../../components/SearchItem';
+import Search from '../../components/Search';
 export default function HomeScreen({route, navigation}) {
   const [source, setSource] = useState('french');
   const [target, setTarget] = useState('lingala');
@@ -58,6 +56,9 @@ export default function HomeScreen({route, navigation}) {
             source={source}
             target={target}
             navigation={navigation}
+            onPress={() => {
+              handleRandomTranslations();
+            }}
           />
         );
       }
@@ -87,6 +88,10 @@ export default function HomeScreen({route, navigation}) {
     }
   };
 
+  const handleRandomTranslations = () => {
+    setTranslations(randomTranslation(target));
+  };
+
   return (
     <SafeAreaView style={styles.containerHome} edges={['right', 'left']}>
       <KeyboardAvoidingView
@@ -98,62 +103,12 @@ export default function HomeScreen({route, navigation}) {
           <Image style={{height: 92}} source={ImagesUrl.header} />
         </View>
         <View style={styles.containerMain}>
-          <View style={styles.searchModuleContainer}>
-            <View style={styles.containerTitle}>
-              <Text style={styles.infoText}>Le Dictionnaire pratique</Text>
-              <Text style={styles.infoTitle}>Français - Lingala - Sango</Text>
-            </View>
-            <TouchableOpacity
-              style={styles.containerSearch}
-              onPress={() => {
-                console.log(
-                  navigation.navigate('Autocomplete', {
-                    source: source,
-                    target: target,
-                  }),
-                );
-              }}>
-              {/* onSubmitEditing : validation text par le clavier*/}
-
-              <View style={{flex: 4}}>
-                <Text
-                  style={[
-                    styles.textinput,
-                    route.params ? styles.textinputSetted : null,
-                  ]}>
-                  {route.params
-                    ? route.params.definition
-                    : 'Barre de recherche'}
-                </Text>
-                <View style={styles.searchSelect}>
-                  <View style={styles.searchItem}>
-                    <Text style={styles.translationText}>
-                      {source === 'french' ? 'Français' : source}
-                    </Text>
-                    <Icon name="caret-down" size={25} />
-                  </View>
-                  <View style={styles.searchArrow}>
-                    <View>
-                      <Image source={ImagesUrl.arrow} />
-                    </View>
-                  </View>
-                  <View style={styles.searchItem}>
-                    <Text style={styles.translationText}>
-                      {target === 'french' ? 'Français' : target}
-                    </Text>
-                    <Icon name="caret-down" size={25} />
-                  </View>
-                </View>
-              </View>
-              <View>
-                <LinearGradient
-                  colors={['#4c669f', '#3b5998', '#192f6a']}
-                  style={styles.gradient}>
-                  <Text style={styles.buttonText}>Chercher</Text>
-                </LinearGradient>
-              </View>
-            </TouchableOpacity>
-          </View>
+          <Search
+            source={source}
+            target={target}
+            navigation={navigation}
+            route={route}
+          />
           {loading ? (
             <LoadingScreen style={styles.loadingScreenHome} />
           ) : (

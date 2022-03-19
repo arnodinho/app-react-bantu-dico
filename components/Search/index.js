@@ -4,9 +4,8 @@ import LinearGradient from 'react-native-linear-gradient';
 import {ImagesUrl} from '../../config/ImagesUrl';
 import styles from './styles';
 import Icon from 'react-native-vector-icons/FontAwesome';
-
 export default function Search(props) {
-  const {navigation, params} = props;
+  const {navigation, source, target, route} = props;
 
   return (
     <View style={styles.searchModuleContainer}>
@@ -14,23 +13,30 @@ export default function Search(props) {
         <Text style={styles.infoText}>Le Dictionnaire pratique</Text>
         <Text style={styles.infoTitle}>Français - Lingala - Sango</Text>
       </View>
-
       <TouchableOpacity
         style={styles.containerSearch}
         onPress={() => {
-          console.log(navigation.navigate('Autocomplete'));
+          console.log(
+            navigation.navigate('Autocomplete', {
+              source: source,
+              target: target,
+            }),
+          );
         }}>
         {/* onSubmitEditing : validation text par le clavier*/}
 
         <View style={{flex: 4}}>
           <Text
-            style={[styles.textinput, params ? styles.textinputSetted : null]}>
-            {params ? params.definition : 'Barre de recherche'}
+            style={[
+              styles.textinput,
+              route.params ? styles.textinputSetted : null,
+            ]}>
+            {route.params ? route.params.definition : 'Barre de recherche'}
           </Text>
           <View style={styles.searchSelect}>
             <View style={styles.searchItem}>
               <Text style={styles.translationText}>
-                {params ? params.source : 'Français'}
+                {source === 'french' ? 'Français' : source}
               </Text>
               <Icon name="caret-down" size={25} />
             </View>
@@ -41,7 +47,7 @@ export default function Search(props) {
             </View>
             <View style={styles.searchItem}>
               <Text style={styles.translationText}>
-                {params ? params.target : 'Lingala'}
+                {target === 'french' ? 'Français' : target}
               </Text>
               <Icon name="caret-down" size={25} />
             </View>

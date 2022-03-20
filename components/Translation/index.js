@@ -14,7 +14,7 @@ export default function Translation(props) {
           <View style={styles.resulLangage}>
             <View
               style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-              <Text style={styles.tabBarInfoText}>
+              <Text style={styles.tabBarInfoTextMain}>
                 {source === 'french' ? 'Français' : source}
               </Text>
             </View>
@@ -89,8 +89,38 @@ export default function Translation(props) {
     );
   };
 
-  if (data.code) {
+  const renderMaintenance = () => {
+    return (
+      <View style={styles.translationContainer}>
+        <View style={styles.resultContainer}>
+          <View style={styles.frown}>
+            <View style={{justifyContent: 'center'}}>
+              <Icon name="gears" size={100} color="#214c98" />
+            </View>
+            <View style={{justifyContent: 'center', marginTop: 20}}>
+              <Text style={[styles.tabBarInfoText, {fontStyle: 'italic'}]}>
+                Application en cours de maintenance. Veuillez réessayer plus tard
+              </Text>
+            </View>
+          </View>
+        </View>
+        <Button
+          name="Aléatoire"
+          style={styles.button}
+          styleGradient={styles.gradient}
+          onPress={onPress}
+        />
+      </View>
+    );
+  };
+  if (
+    data.code == 500 &&
+    (data.message == 'French Lingala  translation not found' ||
+      data.message == 'French Sango  translation not found')
+  ) {
     return renderTranstionNotFound();
+  } else if (data.code == 500) {
+    return renderMaintenance();
   } else {
     return renderTranstion();
   }

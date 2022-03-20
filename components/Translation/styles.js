@@ -33,6 +33,15 @@ export default StyleSheet.create({
     color: '#061646',
     textAlign: 'center',
     fontWeight: 'bold',
+  },
+  tabBarInfoTextMain: {
+    marginTop: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    fontSize: 17,
+    color: '#061646',
+    textAlign: 'center',
+    fontWeight: 'bold',
     textTransform: 'capitalize',
   },
   frown: {

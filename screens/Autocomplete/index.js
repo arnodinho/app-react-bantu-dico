@@ -69,7 +69,7 @@ export default function Autocomplete({navigation, route}) {
           <LoadingScreen />
         </View>
       );
-    } else if (showResult && listAutocomplete.length > 0) {
+    } else if (showResult && listAutocomplete?.length > 0) {
       console.log('nombre de results ' + listAutocomplete.length);
       console.log('resultats autocomplete disponible');
       return (

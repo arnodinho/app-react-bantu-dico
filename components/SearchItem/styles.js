@@ -45,6 +45,7 @@ export default StyleSheet.create({
     backgroundColor: 'transparent',
     fontSize: 35,
     color: '#fff',
+    textTransform: 'capitalize',
   },
   definitionType: {
     backgroundColor: 'transparent',

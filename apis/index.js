@@ -88,3 +88,7 @@ export function randomTranslation(language) {
 
   return [translation];
 }
+
+export function randomId() {
+  return Math.random();
+}

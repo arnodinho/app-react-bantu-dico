@@ -6,7 +6,6 @@ import {ImagesUrl} from '../../config/ImagesUrl';
 import Button from '../Button';
 export default function Translation(props) {
   const {source, target, data, navigation, onPress} = props;
-
   const renderTranstion = () => {
     return (
       <View style={styles.translationContainer}>

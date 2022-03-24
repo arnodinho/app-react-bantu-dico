@@ -28,8 +28,10 @@ export default function HomeScreen({route, navigation}) {
     android: 70,
   });
   console.log('entrée dans le composant HomeScreen');
+  console.log(route?.params);
   useEffect(() => {
     if (route.params) {
+      console.log('on rentre dans le use Effect ' + route.params?.key);
       setLoading(true);
       setSource(route.params.source);
       setTarget(route.params.target);
@@ -44,9 +46,15 @@ export default function HomeScreen({route, navigation}) {
       });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [route.params?.definition, route.params?.source, route.params?.target]);
+  }, [
+    route.params?.definition,
+    route.params?.source,
+    route.params?.target,
+    route.params?.key,
+  ]);
 
   const handleTranslations = () => {
+    console.log('longueur  ' + translations.length);
     if (translations) {
       // si une seule translation
       if (translations.length === 1) {
@@ -75,6 +83,8 @@ export default function HomeScreen({route, navigation}) {
               keyExtractor={item => item.id.toString()}
               renderItem={({item}) => (
                 <SearchItem
+                  source={source}
+                  target={target}
                   definition={item}
                   onPress={() => {
                     setTranslations([item]);

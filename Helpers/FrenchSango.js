@@ -3,12 +3,12 @@ export const FRENCH_SANGO = [
     id: 1,
     source: {
       word: 'pygmée',
-      url: '/bundles/main/audio/french/2454.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'bambinga',
-      url: '/bundles/main/audio/sango/1916.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -27,12 +27,12 @@ export const FRENCH_SANGO = [
     id: 2,
     source: {
       word: 'Sec',
-      url: '/bundles/main/audio/french/469.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'Ulè',
-      url: '/bundles/main/audio/sango/300.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -51,12 +51,12 @@ export const FRENCH_SANGO = [
     id: 3,
     source: {
       word: 'Sec',
-      url: '/bundles/main/audio/french/470.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'Ulè',
-      url: '/bundles/main/audio/sango/300.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -75,7 +75,7 @@ export const FRENCH_SANGO = [
     id: 4,
     source: {
       word: 'luciole',
-      url: '/bundles/main/audio/french/3053.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -100,12 +100,12 @@ export const FRENCH_SANGO = [
     id: 5,
     source: {
       word: 'Coupeur de route',
-      url: '/bundles/main/audio/french/1024.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Zaragina',
-      url: '/bundles/main/audio/sango/713.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -124,7 +124,7 @@ export const FRENCH_SANGO = [
     id: 6,
     source: {
       word: 'Difficile',
-      url: '/bundles/main/audio/french/346.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
@@ -148,7 +148,7 @@ export const FRENCH_SANGO = [
     id: 7,
     source: {
       word: 'Dur',
-      url: '/bundles/main/audio/french/341.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
@@ -172,7 +172,7 @@ export const FRENCH_SANGO = [
     id: 8,
     source: {
       word: 'Fort',
-      url: '/bundles/main/audio/french/347.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
@@ -196,12 +196,12 @@ export const FRENCH_SANGO = [
     id: 9,
     source: {
       word: 'affaire',
-      url: '/bundles/main/audio/french/3032.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'kûngbâ',
-      url: '/bundles/main/audio/sango/2301.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -221,12 +221,12 @@ export const FRENCH_SANGO = [
     id: 10,
     source: {
       word: 'brique',
-      url: '/bundles/main/audio/french/1191.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'bilíki',
-      url: '/bundles/main/audio/sango/900.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -245,12 +245,12 @@ export const FRENCH_SANGO = [
     id: 11,
     source: {
       word: 'Insuffisant',
-      url: '/bundles/main/audio/french/431.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'A lingbi pèpè',
-      url: '/bundles/main/audio/sango/272.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -269,12 +269,12 @@ export const FRENCH_SANGO = [
     id: 12,
     source: {
       word: 'Grossir',
-      url: '/bundles/main/audio/french/245.mp3',
+      url: '',
       type: 'verbe',
     },
     target: {
       word: 'Könö',
-      url: '/bundles/main/audio/sango/153.mp3',
+      url: '',
       type: 'Palî',
       name: 'Sango',
     },
@@ -293,12 +293,12 @@ export const FRENCH_SANGO = [
     id: 13,
     source: {
       word: 'Grandir',
-      url: '/bundles/main/audio/french/244.mp3',
+      url: '',
       type: 'verbe',
     },
     target: {
       word: 'Könö',
-      url: '/bundles/main/audio/sango/153.mp3',
+      url: '',
       type: 'Palî',
       name: 'Sango',
     },
@@ -317,12 +317,12 @@ export const FRENCH_SANGO = [
     id: 14,
     source: {
       word: 'Désordre',
-      url: '/bundles/main/audio/french/611.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Usu-usu',
-      url: '/bundles/main/audio/sango/420.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -341,7 +341,7 @@ export const FRENCH_SANGO = [
     id: 15,
     source: {
       word: 'Mouche',
-      url: '/bundles/main/audio/french/584.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -364,7 +364,7 @@ export const FRENCH_SANGO = [
     id: 16,
     source: {
       word: 'Moustique',
-      url: '/bundles/main/audio/french/589.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -387,12 +387,12 @@ export const FRENCH_SANGO = [
     id: 17,
     source: {
       word: 'Caca',
-      url: '/bundles/main/audio/french/910.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Puru',
-      url: '/bundles/main/audio/sango/639.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -411,12 +411,12 @@ export const FRENCH_SANGO = [
     id: 18,
     source: {
       word: 'cafard',
-      url: '/bundles/main/audio/french/1214.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'pese',
-      url: '/bundles/main/audio/sango/918.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -435,12 +435,12 @@ export const FRENCH_SANGO = [
     id: 19,
     source: {
       word: 'araignée',
-      url: '/bundles/main/audio/french/1063.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Tèrè',
-      url: '/bundles/main/audio/sango/490.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -459,12 +459,12 @@ export const FRENCH_SANGO = [
     id: 20,
     source: {
       word: 'victoire',
-      url: '/bundles/main/audio/french/3003.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'söngö-benda',
-      url: '/bundles/main/audio/sango/2175.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -483,12 +483,12 @@ export const FRENCH_SANGO = [
     id: 21,
     source: {
       word: 'Honte',
-      url: '/bundles/main/audio/french/424.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Kamènè',
-      url: '/bundles/main/audio/sango/266.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -507,12 +507,12 @@ export const FRENCH_SANGO = [
     id: 22,
     source: {
       word: 'Honteux',
-      url: '/bundles/main/audio/french/425.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'Kamènè',
-      url: '/bundles/main/audio/sango/266.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -531,12 +531,12 @@ export const FRENCH_SANGO = [
     id: 23,
     source: {
       word: 'choquant',
-      url: '/bundles/main/audio/french/1344.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'söngö-bê (tî)',
-      url: '/bundles/main/audio/sango/1019.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -554,12 +554,12 @@ export const FRENCH_SANGO = [
     id: 24,
     source: {
       word: 'beaux-parents',
-      url: '/bundles/main/audio/french/1289.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'âkögarä',
-      url: '/bundles/main/audio/sango/978.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -578,12 +578,12 @@ export const FRENCH_SANGO = [
     id: 25,
     source: {
       word: 'belle-famille',
-      url: '/bundles/main/audio/french/1291.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'âkögarä',
-      url: '/bundles/main/audio/sango/978.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -602,7 +602,7 @@ export const FRENCH_SANGO = [
     id: 26,
     source: {
       word: 'sanglier',
-      url: '/bundles/main/audio/french/2533.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -626,12 +626,12 @@ export const FRENCH_SANGO = [
     id: 27,
     source: {
       word: 'Babouin',
-      url: '/bundles/main/audio/french/950.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'bäkoyä',
-      url: '/bundles/main/audio/sango/849.mp3',
+      url: '',
       type: 'Palî',
       name: 'Sango',
     },
@@ -650,12 +650,12 @@ export const FRENCH_SANGO = [
     id: 28,
     source: {
       word: 'renard',
-      url: '/bundles/main/audio/french/1073.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'gamvara',
-      url: '/bundles/main/audio/sango/788.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -674,7 +674,7 @@ export const FRENCH_SANGO = [
     id: 29,
     source: {
       word: 'Arbre',
-      url: '/bundles/main/audio/french/622.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -697,7 +697,7 @@ export const FRENCH_SANGO = [
     id: 30,
     source: {
       word: 'baobab',
-      url: '/bundles/main/audio/french/1281.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -720,12 +720,12 @@ export const FRENCH_SANGO = [
     id: 31,
     source: {
       word: 'taureau',
-      url: '/bundles/main/audio/french/1076.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'kaladi',
-      url: '/bundles/main/audio/sango/793.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -744,12 +744,12 @@ export const FRENCH_SANGO = [
     id: 32,
     source: {
       word: 'Pintade',
-      url: '/bundles/main/audio/french/945.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Kômba',
-      url: '/bundles/main/audio/sango/668.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -768,12 +768,12 @@ export const FRENCH_SANGO = [
     id: 33,
     source: {
       word: 'Babouin',
-      url: '/bundles/main/audio/french/950.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Makako',
-      url: '/bundles/main/audio/sango/411.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -792,12 +792,12 @@ export const FRENCH_SANGO = [
     id: 34,
     source: {
       word: 'hérisson',
-      url: '/bundles/main/audio/french/1066.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'marä-belü',
-      url: '/bundles/main/audio/sango/777.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -816,12 +816,12 @@ export const FRENCH_SANGO = [
     id: 35,
     source: {
       word: 'Rhinocéros',
-      url: '/bundles/main/audio/french/947.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'mâsarâgba',
-      url: '/bundles/main/audio/sango/789.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -840,12 +840,12 @@ export const FRENCH_SANGO = [
     id: 36,
     source: {
       word: 'Rhinocéros',
-      url: '/bundles/main/audio/french/947.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Massaragba',
-      url: '/bundles/main/audio/sango/669.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -864,7 +864,7 @@ export const FRENCH_SANGO = [
     id: 37,
     source: {
       word: 'Cochon',
-      url: '/bundles/main/audio/french/583.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -887,7 +887,7 @@ export const FRENCH_SANGO = [
     id: 38,
     source: {
       word: 'Hippopotame',
-      url: '/bundles/main/audio/french/940.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -910,7 +910,7 @@ export const FRENCH_SANGO = [
     id: 39,
     source: {
       word: 'loup',
-      url: '/bundles/main/audio/french/1071.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -933,7 +933,7 @@ export const FRENCH_SANGO = [
     id: 40,
     source: {
       word: 'veau',
-      url: '/bundles/main/audio/french/1078.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -956,7 +956,7 @@ export const FRENCH_SANGO = [
     id: 41,
     source: {
       word: 'lièvre',
-      url: '/bundles/main/audio/french/941.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -979,7 +979,7 @@ export const FRENCH_SANGO = [
     id: 42,
     source: {
       word: 'libellule',
-      url: '/bundles/main/audio/french/1070.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -1002,7 +1002,7 @@ export const FRENCH_SANGO = [
     id: 43,
     source: {
       word: 'aigle',
-      url: '/bundles/main/audio/french/1062.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -1025,7 +1025,7 @@ export const FRENCH_SANGO = [
     id: 44,
     source: {
       word: 'escargot',
-      url: '/bundles/main/audio/french/1065.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -1048,7 +1048,7 @@ export const FRENCH_SANGO = [
     id: 45,
     source: {
       word: 'Hippopotame',
-      url: '/bundles/main/audio/french/940.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -1071,7 +1071,7 @@ export const FRENCH_SANGO = [
     id: 46,
     source: {
       word: 'hirondelle',
-      url: '/bundles/main/audio/french/1068.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -1094,12 +1094,12 @@ export const FRENCH_SANGO = [
     id: 47,
     source: {
       word: 'hibou',
-      url: '/bundles/main/audio/french/1067.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'sukûlu',
-      url: '/bundles/main/audio/sango/778.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -1118,7 +1118,7 @@ export const FRENCH_SANGO = [
     id: 48,
     source: {
       word: 'zèbre',
-      url: '/bundles/main/audio/french/1079.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
@@ -1141,7 +1141,7 @@ export const FRENCH_SANGO = [
     id: 49,
     source: {
       word: 'Phacochère',
-      url: '/bundles/main/audio/french/944.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -1164,12 +1164,12 @@ export const FRENCH_SANGO = [
     id: 50,
     source: {
       word: 'Mouche',
-      url: '/bundles/main/audio/french/584.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'vümä',
-      url: '/bundles/main/audio/sango/783.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -1188,7 +1188,7 @@ export const FRENCH_SANGO = [
     id: 51,
     source: {
       word: 'insecte',
-      url: '/bundles/main/audio/french/1069.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -1211,12 +1211,12 @@ export const FRENCH_SANGO = [
     id: 52,
     source: {
       word: 'Panthère',
-      url: '/bundles/main/audio/french/943.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Zè',
-      url: '/bundles/main/audio/sango/666.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -1235,7 +1235,7 @@ export const FRENCH_SANGO = [
     id: 53,
     source: {
       word: 'Panthère',
-      url: '/bundles/main/audio/french/943.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -1258,7 +1258,7 @@ export const FRENCH_SANGO = [
     id: 54,
     source: {
       word: 'tigre',
-      url: '/bundles/main/audio/french/1077.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
@@ -1281,7 +1281,7 @@ export const FRENCH_SANGO = [
     id: 55,
     source: {
       word: 'Où',
-      url: '/bundles/main/audio/french/72.mp3',
+      url: '',
       type: 'Pronom',
     },
     target: {
@@ -1305,7 +1305,7 @@ export const FRENCH_SANGO = [
     id: 56,
     source: {
       word: 'basket-ball',
-      url: '/bundles/main/audio/french/1283.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -1328,12 +1328,12 @@ export const FRENCH_SANGO = [
     id: 57,
     source: {
       word: 'Vous',
-      url: '/bundles/main/audio/french/9.mp3',
+      url: '',
       type: 'Pronom',
     },
     target: {
       word: 'Ala',
-      url: '/bundles/main/audio/sango/5.mp3',
+      url: '',
       type: 'Polïpa',
       name: 'Sango',
     },
@@ -1352,12 +1352,12 @@ export const FRENCH_SANGO = [
     id: 58,
     source: {
       word: 'Ils',
-      url: '/bundles/main/audio/french/10.mp3',
+      url: '',
       type: 'Pronom',
     },
     target: {
       word: 'Ala',
-      url: '/bundles/main/audio/sango/5.mp3',
+      url: '',
       type: 'Polïpa',
       name: 'Sango',
     },
@@ -1376,12 +1376,12 @@ export const FRENCH_SANGO = [
     id: 59,
     source: {
       word: 'Eux',
-      url: '/bundles/main/audio/french/11.mp3',
+      url: '',
       type: 'Pronom',
     },
     target: {
       word: 'Ala',
-      url: '/bundles/main/audio/sango/5.mp3',
+      url: '',
       type: 'Polïpa',
       name: 'Sango',
     },
@@ -1400,12 +1400,12 @@ export const FRENCH_SANGO = [
     id: 60,
     source: {
       word: 'Elles',
-      url: '/bundles/main/audio/french/12.mp3',
+      url: '',
       type: 'Pronom',
     },
     target: {
       word: 'Ala',
-      url: '/bundles/main/audio/sango/5.mp3',
+      url: '',
       type: 'Polïpa',
       name: 'Sango',
     },
@@ -1424,7 +1424,7 @@ export const FRENCH_SANGO = [
     id: 61,
     source: {
       word: 'Fuir',
-      url: '/bundles/main/audio/french/90.mp3',
+      url: '',
       type: 'verbe',
     },
     target: {
@@ -1448,7 +1448,7 @@ export const FRENCH_SANGO = [
     id: 62,
     source: {
       word: 'Courrir',
-      url: '/bundles/main/audio/french/844.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -1472,7 +1472,7 @@ export const FRENCH_SANGO = [
     id: 63,
     source: {
       word: 'Echapper',
-      url: '/bundles/main/audio/french/744.mp3',
+      url: '',
       type: 'verbe',
     },
     target: {
@@ -1496,7 +1496,7 @@ export const FRENCH_SANGO = [
     id: 64,
     source: {
       word: 'football',
-      url: '/bundles/main/audio/french/1650.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -1520,12 +1520,12 @@ export const FRENCH_SANGO = [
     id: 65,
     source: {
       word: 'copuler',
-      url: '/bundles/main/audio/french/1400.mp3',
+      url: '',
       type: 'verbe',
     },
     target: {
       word: 'bûngbi terê',
-      url: '/bundles/main/audio/sango/1063.mp3',
+      url: '',
       type: 'Palî',
       name: 'Sango',
     },
@@ -1543,12 +1543,12 @@ export const FRENCH_SANGO = [
     id: 66,
     source: {
       word: 'Négocier',
-      url: '/bundles/main/audio/french/399.mp3',
+      url: '',
       type: 'verbe',
     },
     target: {
       word: 'Pîka pätärä',
-      url: '/bundles/main/audio/sango/245.mp3',
+      url: '',
       type: 'Palî',
       name: 'Sango',
     },
@@ -1567,12 +1567,12 @@ export const FRENCH_SANGO = [
     id: 67,
     source: {
       word: 'pourparlers',
-      url: '/bundles/main/audio/french/2441.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'pïkängö-pätärä',
-      url: '/bundles/main/audio/sango/1906.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -1591,7 +1591,7 @@ export const FRENCH_SANGO = [
     id: 68,
     source: {
       word: 'tapage',
-      url: '/bundles/main/audio/french/2723.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -1615,12 +1615,12 @@ export const FRENCH_SANGO = [
     id: 69,
     source: {
       word: 'choisir',
-      url: '/bundles/main/audio/french/1342.mp3',
+      url: '',
       type: 'verbe',
     },
     target: {
       word: 'soro',
-      url: '/bundles/main/audio/sango/1017.mp3',
+      url: '',
       type: 'Palî',
       name: 'Sango',
     },
@@ -1638,7 +1638,7 @@ export const FRENCH_SANGO = [
     id: 70,
     source: {
       word: 'Accueillir',
-      url: '/bundles/main/audio/french/761.mp3',
+      url: '',
       type: 'verbe',
     },
     target: {
@@ -1661,12 +1661,12 @@ export const FRENCH_SANGO = [
     id: 71,
     source: {
       word: 'Quand',
-      url: '/bundles/main/audio/french/112.mp3',
+      url: '',
       type: 'conjonction',
     },
     target: {
       word: 'La-wa',
-      url: '/bundles/main/audio/sango/73.mp3',
+      url: '',
       type: 'Sëtë',
       name: 'Sango',
     },
@@ -1685,12 +1685,12 @@ export const FRENCH_SANGO = [
     id: 72,
     source: {
       word: 'Neuf',
-      url: '/bundles/main/audio/french/449.mp3',
+      url: '',
       type: 'Adjectif numéral',
     },
     target: {
       word: 'gümbâyä',
-      url: '/bundles/main/audio/sango/1537.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -1709,12 +1709,12 @@ export const FRENCH_SANGO = [
     id: 73,
     source: {
       word: 'Savoir-faire',
-      url: '/bundles/main/audio/french/1021.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Ndara',
-      url: '/bundles/main/audio/sango/571.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -1733,7 +1733,7 @@ export const FRENCH_SANGO = [
     id: 74,
     source: {
       word: 'Partout',
-      url: '/bundles/main/audio/french/804.mp3',
+      url: '',
       type: 'adverbe',
     },
     target: {
@@ -1757,12 +1757,12 @@ export const FRENCH_SANGO = [
     id: 75,
     source: {
       word: 'mentalité',
-      url: '/bundles/main/audio/french/1879.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'sêkodëli',
-      url: '/bundles/main/audio/sango/1469.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -1781,7 +1781,7 @@ export const FRENCH_SANGO = [
     id: 76,
     source: {
       word: 'Concubinage',
-      url: '/bundles/main/audio/french/795.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -1804,7 +1804,7 @@ export const FRENCH_SANGO = [
     id: 77,
     source: {
       word: 'Rester',
-      url: '/bundles/main/audio/french/61.mp3',
+      url: '',
       type: 'verbe',
     },
     target: {
@@ -1828,12 +1828,12 @@ export const FRENCH_SANGO = [
     id: 78,
     source: {
       word: 'Neuf',
-      url: '/bundles/main/audio/french/449.mp3',
+      url: '',
       type: 'Adjectif numéral',
     },
     target: {
       word: 'Ngombaya',
-      url: '/bundles/main/audio/sango/479.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -1852,12 +1852,12 @@ export const FRENCH_SANGO = [
     id: 79,
     source: {
       word: 'Pitié',
-      url: '/bundles/main/audio/french/458.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Mawa',
-      url: '/bundles/main/audio/sango/292.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -1876,12 +1876,12 @@ export const FRENCH_SANGO = [
     id: 80,
     source: {
       word: 'menuisier',
-      url: '/bundles/main/audio/french/1882.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'wakua tî mabäyä',
-      url: '/bundles/main/audio/sango/1472.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -1900,12 +1900,12 @@ export const FRENCH_SANGO = [
     id: 81,
     source: {
       word: 'Enflé',
-      url: '/bundles/main/audio/french/352.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'Suku',
-      url: '/bundles/main/audio/sango/169.mp3',
+      url: '',
       type: 'Palî',
       name: 'Sango',
     },
@@ -1924,12 +1924,12 @@ export const FRENCH_SANGO = [
     id: 82,
     source: {
       word: 'engueuler',
-      url: '/bundles/main/audio/french/1550.mp3',
+      url: '',
       type: 'verbe',
     },
     target: {
       word: 'Suku',
-      url: '/bundles/main/audio/sango/169.mp3',
+      url: '',
       type: 'Palî',
       name: 'Sango',
     },
@@ -1948,7 +1948,7 @@ export const FRENCH_SANGO = [
     id: 83,
     source: {
       word: 'Crocodile',
-      url: '/bundles/main/audio/french/576.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -1971,7 +1971,7 @@ export const FRENCH_SANGO = [
     id: 84,
     source: {
       word: 'Caïman',
-      url: '/bundles/main/audio/french/938.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -1994,12 +1994,12 @@ export const FRENCH_SANGO = [
     id: 85,
     source: {
       word: 'clinique',
-      url: '/bundles/main/audio/french/1422.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'danganga',
-      url: '/bundles/main/audio/sango/1084.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -2018,7 +2018,7 @@ export const FRENCH_SANGO = [
     id: 86,
     source: {
       word: 'plombier',
-      url: '/bundles/main/audio/french/2432.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -2041,7 +2041,7 @@ export const FRENCH_SANGO = [
     id: 87,
     source: {
       word: 'éboueur',
-      url: '/bundles/main/audio/french/1511.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -2064,12 +2064,12 @@ export const FRENCH_SANGO = [
     id: 88,
     source: {
       word: 'Père',
-      url: '/bundles/main/audio/french/57.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Baba',
-      url: '/bundles/main/audio/sango/38.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -2088,12 +2088,12 @@ export const FRENCH_SANGO = [
     id: 89,
     source: {
       word: 'Tortue',
-      url: '/bundles/main/audio/french/604.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'bäkongö',
-      url: '/bundles/main/audio/sango/794.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -2112,12 +2112,12 @@ export const FRENCH_SANGO = [
     id: 90,
     source: {
       word: 'réservoir',
-      url: '/bundles/main/audio/french/2401.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'dangû',
-      url: '/bundles/main/audio/sango/1873.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -2136,7 +2136,7 @@ export const FRENCH_SANGO = [
     id: 91,
     source: {
       word: 'mobylette',
-      url: '/bundles/main/audio/french/1921.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -2159,12 +2159,12 @@ export const FRENCH_SANGO = [
     id: 92,
     source: {
       word: 'Tortue',
-      url: '/bundles/main/audio/french/604.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Nako',
-      url: '/bundles/main/audio/sango/415.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -2183,12 +2183,12 @@ export const FRENCH_SANGO = [
     id: 93,
     source: {
       word: 'préfet',
-      url: '/bundles/main/audio/french/2443.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'kömändâ-kötä',
-      url: '/bundles/main/audio/sango/1908.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -2207,12 +2207,12 @@ export const FRENCH_SANGO = [
     id: 94,
     source: {
       word: 'militaire',
-      url: '/bundles/main/audio/french/1906.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'turûgu',
-      url: '/bundles/main/audio/sango/1491.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -2231,7 +2231,7 @@ export const FRENCH_SANGO = [
     id: 95,
     source: {
       word: 'magistrat',
-      url: '/bundles/main/audio/french/1791.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -2254,12 +2254,12 @@ export const FRENCH_SANGO = [
     id: 96,
     source: {
       word: 'camionneur',
-      url: '/bundles/main/audio/french/1229.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'wakpëngö kutukutu',
-      url: '/bundles/main/audio/sango/931.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -2278,7 +2278,7 @@ export const FRENCH_SANGO = [
     id: 97,
     source: {
       word: 'Pêcheur',
-      url: '/bundles/main/audio/french/669.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -2302,12 +2302,12 @@ export const FRENCH_SANGO = [
     id: 98,
     source: {
       word: 'expert',
-      url: '/bundles/main/audio/french/1596.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'töwakodë',
-      url: '/bundles/main/audio/sango/1221.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -2326,7 +2326,7 @@ export const FRENCH_SANGO = [
     id: 99,
     source: {
       word: 'Forum',
-      url: '/bundles/main/audio/french/873.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -2349,12 +2349,12 @@ export const FRENCH_SANGO = [
     id: 100,
     source: {
       word: 'Rivière',
-      url: '/bundles/main/audio/french/665.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Balé',
-      url: '/bundles/main/audio/sango/462.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -2373,12 +2373,12 @@ export const FRENCH_SANGO = [
     id: 101,
     source: {
       word: 'chanson',
-      url: '/bundles/main/audio/french/1273.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Bia',
-      url: '/bundles/main/audio/sango/345.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -2397,7 +2397,7 @@ export const FRENCH_SANGO = [
     id: 102,
     source: {
       word: 'côte',
-      url: '/bundles/main/audio/french/1041.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -2420,12 +2420,12 @@ export const FRENCH_SANGO = [
     id: 103,
     source: {
       word: 'Sac',
-      url: '/bundles/main/audio/french/123.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Bôzô',
-      url: '/bundles/main/audio/sango/130.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -2444,12 +2444,12 @@ export const FRENCH_SANGO = [
     id: 104,
     source: {
       word: 'Chambre',
-      url: '/bundles/main/audio/french/29.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Da ti Lango',
-      url: '/bundles/main/audio/sango/21.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -2468,12 +2468,12 @@ export const FRENCH_SANGO = [
     id: 105,
     source: {
       word: 'froid',
-      url: '/bundles/main/audio/french/1086.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'dê',
-      url: '/bundles/main/audio/sango/807.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -2492,12 +2492,12 @@ export const FRENCH_SANGO = [
     id: 106,
     source: {
       word: 'Vagin',
-      url: '/bundles/main/audio/french/911.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Dondô',
-      url: '/bundles/main/audio/sango/640.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -2516,12 +2516,12 @@ export const FRENCH_SANGO = [
     id: 107,
     source: {
       word: 'Anus',
-      url: '/bundles/main/audio/french/909.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Du ti puru',
-      url: '/bundles/main/audio/sango/638.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -2540,12 +2540,12 @@ export const FRENCH_SANGO = [
     id: 108,
     source: {
       word: 'Nous',
-      url: '/bundles/main/audio/french/8.mp3',
+      url: '',
       type: 'Pronom',
     },
     target: {
       word: 'É',
-      url: '/bundles/main/audio/sango/4.mp3',
+      url: '',
       type: 'Polïpa',
       name: 'Sango',
     },
@@ -2564,7 +2564,7 @@ export const FRENCH_SANGO = [
     id: 109,
     source: {
       word: 'Ici',
-      url: '/bundles/main/audio/french/15.mp3',
+      url: '',
       type: 'adverbe',
     },
     target: {
@@ -2588,7 +2588,7 @@ export const FRENCH_SANGO = [
     id: 110,
     source: {
       word: 'Ici',
-      url: '/bundles/main/audio/french/15.mp3',
+      url: '',
       type: 'adverbe',
     },
     target: {
@@ -2612,12 +2612,12 @@ export const FRENCH_SANGO = [
     id: 111,
     source: {
       word: 'ensemble',
-      url: '/bundles/main/audio/french/1555.mp3',
+      url: '',
       type: 'adverbe',
     },
     target: {
       word: 'Oko',
-      url: '/bundles/main/audio/sango/302.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -2636,12 +2636,12 @@ export const FRENCH_SANGO = [
     id: 112,
     source: {
       word: 'Prier',
-      url: '/bundles/main/audio/french/287.mp3',
+      url: '',
       type: 'verbe',
     },
     target: {
       word: 'Sambéla',
-      url: '/bundles/main/audio/sango/553.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -2660,12 +2660,12 @@ export const FRENCH_SANGO = [
     id: 113,
     source: {
       word: 'compagnon',
-      url: '/bundles/main/audio/french/1373.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'fömbâ',
-      url: '/bundles/main/audio/sango/928.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -2683,12 +2683,12 @@ export const FRENCH_SANGO = [
     id: 114,
     source: {
       word: 'compagne',
-      url: '/bundles/main/audio/french/1374.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'fömbâ',
-      url: '/bundles/main/audio/sango/928.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -2706,12 +2706,12 @@ export const FRENCH_SANGO = [
     id: 115,
     source: {
       word: 'Poumons',
-      url: '/bundles/main/audio/french/903.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Fufu',
-      url: '/bundles/main/audio/sango/633.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -2730,12 +2730,12 @@ export const FRENCH_SANGO = [
     id: 116,
     source: {
       word: 'hanche',
-      url: '/bundles/main/audio/french/1046.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'fûnda-yâ',
-      url: '/bundles/main/audio/sango/747.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -2754,12 +2754,12 @@ export const FRENCH_SANGO = [
     id: 117,
     source: {
       word: 'Vite',
-      url: '/bundles/main/audio/french/14.mp3',
+      url: '',
       type: 'adverbe',
     },
     target: {
       word: 'Hio',
-      url: '/bundles/main/audio/sango/7.mp3',
+      url: '',
       type: 'mbasêlî',
       name: 'Sango',
     },
@@ -2778,12 +2778,12 @@ export const FRENCH_SANGO = [
     id: 118,
     source: {
       word: 'Marché',
-      url: '/bundles/main/audio/french/32.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Gara',
-      url: '/bundles/main/audio/sango/23.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -2802,7 +2802,7 @@ export const FRENCH_SANGO = [
     id: 119,
     source: {
       word: 'Gorge',
-      url: '/bundles/main/audio/french/491.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -2825,12 +2825,12 @@ export const FRENCH_SANGO = [
     id: 120,
     source: {
       word: 'bas-ventre',
-      url: '/bundles/main/audio/french/1284.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'gbeyâ',
-      url: '/bundles/main/audio/sango/842.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -2849,7 +2849,7 @@ export const FRENCH_SANGO = [
     id: 121,
     source: {
       word: 'Président',
-      url: '/bundles/main/audio/french/757.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -2873,7 +2873,7 @@ export const FRENCH_SANGO = [
     id: 122,
     source: {
       word: 'Jambe',
-      url: '/bundles/main/audio/french/502.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -2897,12 +2897,12 @@ export const FRENCH_SANGO = [
     id: 123,
     source: {
       word: 'Terminer',
-      url: '/bundles/main/audio/french/171.mp3',
+      url: '',
       type: 'verbe',
     },
     target: {
       word: 'hûnzi',
-      url: '/bundles/main/audio/sango/1247.mp3',
+      url: '',
       type: 'Palî',
       name: 'Sango',
     },
@@ -2921,12 +2921,12 @@ export const FRENCH_SANGO = [
     id: 124,
     source: {
       word: 'Finir',
-      url: '/bundles/main/audio/french/170.mp3',
+      url: '',
       type: 'verbe',
     },
     target: {
       word: 'hûnzi',
-      url: '/bundles/main/audio/sango/1247.mp3',
+      url: '',
       type: 'Palî',
       name: 'Sango',
     },
@@ -2945,7 +2945,7 @@ export const FRENCH_SANGO = [
     id: 125,
     source: {
       word: 'Gorge',
-      url: '/bundles/main/audio/french/491.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -2968,7 +2968,7 @@ export const FRENCH_SANGO = [
     id: 126,
     source: {
       word: 'Chercher',
-      url: '/bundles/main/audio/french/39.mp3',
+      url: '',
       type: 'verbe',
     },
     target: {
@@ -2992,12 +2992,12 @@ export const FRENCH_SANGO = [
     id: 127,
     source: {
       word: 'café',
-      url: '/bundles/main/audio/french/1215.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'kâwa',
-      url: '/bundles/main/audio/sango/919.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3016,12 +3016,12 @@ export const FRENCH_SANGO = [
     id: 128,
     source: {
       word: 'tétine',
-      url: '/bundles/main/audio/french/2756.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'yângâ-biberöo',
-      url: '/bundles/main/audio/sango/2124.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3040,12 +3040,12 @@ export const FRENCH_SANGO = [
     id: 129,
     source: {
       word: 'tomate',
-      url: '/bundles/main/audio/french/2930.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'damâti',
-      url: '/bundles/main/audio/sango/2236.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3064,12 +3064,12 @@ export const FRENCH_SANGO = [
     id: 130,
     source: {
       word: 'Ouvrir',
-      url: '/bundles/main/audio/french/143.mp3',
+      url: '',
       type: 'verbe',
     },
     target: {
       word: 'Zi',
-      url: '/bundles/main/audio/sango/93.mp3',
+      url: '',
       type: 'Palî',
       name: 'Sango',
     },
@@ -3088,12 +3088,12 @@ export const FRENCH_SANGO = [
     id: 131,
     source: {
       word: 'Enlever',
-      url: '/bundles/main/audio/french/144.mp3',
+      url: '',
       type: 'verbe',
     },
     target: {
       word: 'Zi',
-      url: '/bundles/main/audio/sango/93.mp3',
+      url: '',
       type: 'Palî',
       name: 'Sango',
     },
@@ -3112,7 +3112,7 @@ export const FRENCH_SANGO = [
     id: 132,
     source: {
       word: 'Au revoir',
-      url: '/bundles/main/audio/french/887.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -3135,7 +3135,7 @@ export const FRENCH_SANGO = [
     id: 133,
     source: {
       word: 'Nez',
-      url: '/bundles/main/audio/french/483.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -3159,7 +3159,7 @@ export const FRENCH_SANGO = [
     id: 134,
     source: {
       word: 'Front',
-      url: '/bundles/main/audio/french/481.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -3182,12 +3182,12 @@ export const FRENCH_SANGO = [
     id: 135,
     source: {
       word: 'poignet',
-      url: '/bundles/main/audio/french/1053.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'hôntï',
-      url: '/bundles/main/audio/sango/761.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3206,12 +3206,12 @@ export const FRENCH_SANGO = [
     id: 136,
     source: {
       word: 'Sel',
-      url: '/bundles/main/audio/french/118.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Ingo',
-      url: '/bundles/main/audio/sango/77.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3230,7 +3230,7 @@ export const FRENCH_SANGO = [
     id: 137,
     source: {
       word: 'Sauce',
-      url: '/bundles/main/audio/french/569.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -3253,12 +3253,12 @@ export const FRENCH_SANGO = [
     id: 138,
     source: {
       word: 'nom',
-      url: '/bundles/main/audio/french/41.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'irî',
-      url: '/bundles/main/audio/sango/2334.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3278,12 +3278,12 @@ export const FRENCH_SANGO = [
     id: 139,
     source: {
       word: 'Frère',
-      url: '/bundles/main/audio/french/508.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Ita koli',
-      url: '/bundles/main/audio/sango/334.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3302,12 +3302,12 @@ export const FRENCH_SANGO = [
     id: 140,
     source: {
       word: 'soeur',
-      url: '/bundles/main/audio/french/914.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Ita wali',
-      url: '/bundles/main/audio/sango/643.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3326,12 +3326,12 @@ export const FRENCH_SANGO = [
     id: 141,
     source: {
       word: 'soeur',
-      url: '/bundles/main/audio/french/914.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'îtä-wâlï',
-      url: '/bundles/main/audio/sango/2038.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3350,12 +3350,12 @@ export const FRENCH_SANGO = [
     id: 142,
     source: {
       word: 'Saisir',
-      url: '/bundles/main/audio/french/240.mp3',
+      url: '',
       type: 'verbe',
     },
     target: {
       word: 'Kamâta',
-      url: '/bundles/main/audio/sango/528.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3374,12 +3374,12 @@ export const FRENCH_SANGO = [
     id: 143,
     source: {
       word: 'Corde',
-      url: '/bundles/main/audio/french/148.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Kamba',
-      url: '/bundles/main/audio/sango/95.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3398,12 +3398,12 @@ export const FRENCH_SANGO = [
     id: 144,
     source: {
       word: 'Fil',
-      url: '/bundles/main/audio/french/149.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Kamba',
-      url: '/bundles/main/audio/sango/95.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3422,12 +3422,12 @@ export const FRENCH_SANGO = [
     id: 145,
     source: {
       word: 'Ficelle',
-      url: '/bundles/main/audio/french/150.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Kamba',
-      url: '/bundles/main/audio/sango/95.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3446,12 +3446,12 @@ export const FRENCH_SANGO = [
     id: 146,
     source: {
       word: 'bien-aimé',
-      url: '/bundles/main/audio/french/1293.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'kâmba tî bê',
-      url: '/bundles/main/audio/sango/877.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3470,12 +3470,12 @@ export const FRENCH_SANGO = [
     id: 147,
     source: {
       word: 'caleçon',
-      url: '/bundles/main/audio/french/1212.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'kambûsu',
-      url: '/bundles/main/audio/sango/916.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3494,12 +3494,12 @@ export const FRENCH_SANGO = [
     id: 148,
     source: {
       word: 'Eglise',
-      url: '/bundles/main/audio/french/28.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Da ti Nzapa',
-      url: '/bundles/main/audio/sango/20.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3518,12 +3518,12 @@ export const FRENCH_SANGO = [
     id: 149,
     source: {
       word: 'bibliothèque',
-      url: '/bundles/main/audio/french/3055.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'dabûku',
-      url: '/bundles/main/audio/sango/2341.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3543,12 +3543,12 @@ export const FRENCH_SANGO = [
     id: 150,
     source: {
       word: 'clavier',
-      url: '/bundles/main/audio/french/1357.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'kembï',
-      url: '/bundles/main/audio/sango/1032.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3566,7 +3566,7 @@ export const FRENCH_SANGO = [
     id: 151,
     source: {
       word: 'érection',
-      url: '/bundles/main/audio/french/1571.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -3590,12 +3590,12 @@ export const FRENCH_SANGO = [
     id: 152,
     source: {
       word: 'Pénis',
-      url: '/bundles/main/audio/french/506.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Kènguè',
-      url: '/bundles/main/audio/sango/332.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3614,7 +3614,7 @@ export const FRENCH_SANGO = [
     id: 153,
     source: {
       word: 'Orteil',
-      url: '/bundles/main/audio/french/503.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -3638,12 +3638,12 @@ export const FRENCH_SANGO = [
     id: 154,
     source: {
       word: 'Doigt',
-      url: '/bundles/main/audio/french/501.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Kètè maboko',
-      url: '/bundles/main/audio/sango/329.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3662,12 +3662,12 @@ export const FRENCH_SANGO = [
     id: 155,
     source: {
       word: 'tribu',
-      url: '/bundles/main/audio/french/2834.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'kêtê marä',
-      url: '/bundles/main/audio/sango/2171.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3686,12 +3686,12 @@ export const FRENCH_SANGO = [
     id: 156,
     source: {
       word: 'dialecte',
-      url: '/bundles/main/audio/french/1481.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'kêtê yângâ-ködörö',
-      url: '/bundles/main/audio/sango/1126.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3710,12 +3710,12 @@ export const FRENCH_SANGO = [
     id: 157,
     source: {
       word: 'rendre',
-      url: '/bundles/main/audio/french/2389.mp3',
+      url: '',
       type: 'verbe',
     },
     target: {
       word: 'kîri na',
-      url: '/bundles/main/audio/sango/1865.mp3',
+      url: '',
       type: 'Palî',
       name: 'Sango',
     },
@@ -3734,12 +3734,12 @@ export const FRENCH_SANGO = [
     id: 158,
     source: {
       word: 'Renvoyer',
-      url: '/bundles/main/audio/french/281.mp3',
+      url: '',
       type: 'verbe',
     },
     target: {
       word: 'kîri na',
-      url: '/bundles/main/audio/sango/1865.mp3',
+      url: '',
       type: 'Palî',
       name: 'Sango',
     },
@@ -3758,12 +3758,12 @@ export const FRENCH_SANGO = [
     id: 159,
     source: {
       word: 'réponse',
-      url: '/bundles/main/audio/french/2395.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'kîri-hûnda',
-      url: '/bundles/main/audio/sango/1868.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3782,12 +3782,12 @@ export const FRENCH_SANGO = [
     id: 160,
     source: {
       word: 'Pourri',
-      url: '/bundles/main/audio/french/459.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'Fu',
-      url: '/bundles/main/audio/sango/143.mp3',
+      url: '',
       type: 'Palî',
       name: 'Sango',
     },
@@ -3806,12 +3806,12 @@ export const FRENCH_SANGO = [
     id: 161,
     source: {
       word: 'Amer',
-      url: '/bundles/main/audio/french/321.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Sé',
-      url: '/bundles/main/audio/sango/197.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3830,12 +3830,12 @@ export const FRENCH_SANGO = [
     id: 162,
     source: {
       word: 'beau-fils',
-      url: '/bundles/main/audio/french/1287.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Kogara',
-      url: '/bundles/main/audio/sango/646.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3854,12 +3854,12 @@ export const FRENCH_SANGO = [
     id: 163,
     source: {
       word: 'beau-père',
-      url: '/bundles/main/audio/french/1288.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Kogara',
-      url: '/bundles/main/audio/sango/646.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3878,12 +3878,12 @@ export const FRENCH_SANGO = [
     id: 164,
     source: {
       word: 'Beau-frère',
-      url: '/bundles/main/audio/french/917.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Kogara',
-      url: '/bundles/main/audio/sango/646.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3902,12 +3902,12 @@ export const FRENCH_SANGO = [
     id: 165,
     source: {
       word: 'Belle-soeur',
-      url: '/bundles/main/audio/french/918.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Kogara',
-      url: '/bundles/main/audio/sango/646.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -3926,7 +3926,7 @@ export const FRENCH_SANGO = [
     id: 166,
     source: {
       word: 'bracelet',
-      url: '/bundles/main/audio/french/1181.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -3949,7 +3949,7 @@ export const FRENCH_SANGO = [
     id: 167,
     source: {
       word: 'bijou',
-      url: '/bundles/main/audio/french/1166.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -3972,7 +3972,7 @@ export const FRENCH_SANGO = [
     id: 168,
     source: {
       word: 'Content',
-      url: '/bundles/main/audio/french/338.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
@@ -3996,7 +3996,7 @@ export const FRENCH_SANGO = [
     id: 169,
     source: {
       word: 'Heureux',
-      url: '/bundles/main/audio/french/339.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
@@ -4020,7 +4020,7 @@ export const FRENCH_SANGO = [
     id: 170,
     source: {
       word: 'Attentif',
-      url: '/bundles/main/audio/french/323.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
@@ -4044,7 +4044,7 @@ export const FRENCH_SANGO = [
     id: 171,
     source: {
       word: 'Lentement',
-      url: '/bundles/main/audio/french/87.mp3',
+      url: '',
       type: 'adverbe',
     },
     target: {
@@ -4068,7 +4068,7 @@ export const FRENCH_SANGO = [
     id: 172,
     source: {
       word: 'Doucement',
-      url: '/bundles/main/audio/french/88.mp3',
+      url: '',
       type: 'adverbe',
     },
     target: {
@@ -4092,7 +4092,7 @@ export const FRENCH_SANGO = [
     id: 173,
     source: {
       word: 'Ralentir',
-      url: '/bundles/main/audio/french/89.mp3',
+      url: '',
       type: 'verbe',
     },
     target: {
@@ -4116,12 +4116,12 @@ export const FRENCH_SANGO = [
     id: 174,
     source: {
       word: 'con',
-      url: '/bundles/main/audio/french/1380.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'bubä',
-      url: '/bundles/main/audio/sango/2315.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -4141,12 +4141,12 @@ export const FRENCH_SANGO = [
     id: 175,
     source: {
       word: 'débile',
-      url: '/bundles/main/audio/french/1441.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'bubä',
-      url: '/bundles/main/audio/sango/2316.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -4166,12 +4166,12 @@ export const FRENCH_SANGO = [
     id: 176,
     source: {
       word: 'lascar',
-      url: '/bundles/main/audio/french/1839.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'godobe',
-      url: '/bundles/main/audio/sango/1438.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -4190,12 +4190,12 @@ export const FRENCH_SANGO = [
     id: 177,
     source: {
       word: 'vétéran',
-      url: '/bundles/main/audio/french/2996.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Kangba',
-      url: '/bundles/main/audio/sango/470.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -4214,12 +4214,12 @@ export const FRENCH_SANGO = [
     id: 178,
     source: {
       word: 'Avare',
-      url: '/bundles/main/audio/french/325.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'Kion',
-      url: '/bundles/main/audio/sango/200.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -4238,12 +4238,12 @@ export const FRENCH_SANGO = [
     id: 179,
     source: {
       word: 'Vieillard',
-      url: '/bundles/main/audio/french/86.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Mbakörö',
-      url: '/bundles/main/audio/sango/198.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -4262,12 +4262,12 @@ export const FRENCH_SANGO = [
     id: 180,
     source: {
       word: 'Vieux',
-      url: '/bundles/main/audio/french/322.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Mbakörö',
-      url: '/bundles/main/audio/sango/198.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -4286,12 +4286,12 @@ export const FRENCH_SANGO = [
     id: 181,
     source: {
       word: 'réussite',
-      url: '/bundles/main/audio/french/2472.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'benda',
-      url: '/bundles/main/audio/sango/1933.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -4310,12 +4310,12 @@ export const FRENCH_SANGO = [
     id: 182,
     source: {
       word: 'Calme',
-      url: '/bundles/main/audio/french/337.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'sîrîrî',
-      url: '/bundles/main/audio/sango/925.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -4334,7 +4334,7 @@ export const FRENCH_SANGO = [
     id: 183,
     source: {
       word: 'Féticheur',
-      url: '/bundles/main/audio/french/750.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -4358,12 +4358,12 @@ export const FRENCH_SANGO = [
     id: 184,
     source: {
       word: 'Courageux',
-      url: '/bundles/main/audio/french/342.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'ngangu',
-      url: '/bundles/main/audio/sango/208.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -4381,12 +4381,12 @@ export const FRENCH_SANGO = [
     id: 185,
     source: {
       word: 'brave',
-      url: '/bundles/main/audio/french/1187.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'ngangu',
-      url: '/bundles/main/audio/sango/208.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -4405,12 +4405,12 @@ export const FRENCH_SANGO = [
     id: 186,
     source: {
       word: 'Coriace',
-      url: '/bundles/main/audio/french/340.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'ngangu',
-      url: '/bundles/main/audio/sango/208.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -4429,12 +4429,12 @@ export const FRENCH_SANGO = [
     id: 187,
     source: {
       word: 'Dur',
-      url: '/bundles/main/audio/french/341.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'ngangu',
-      url: '/bundles/main/audio/sango/208.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -4453,12 +4453,12 @@ export const FRENCH_SANGO = [
     id: 188,
     source: {
       word: 'Difficile',
-      url: '/bundles/main/audio/french/346.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'ngangu',
-      url: '/bundles/main/audio/sango/208.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -4477,12 +4477,12 @@ export const FRENCH_SANGO = [
     id: 189,
     source: {
       word: 'chauffard',
-      url: '/bundles/main/audio/french/1420.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'sïö wakutukutu',
-      url: '/bundles/main/audio/sango/1082.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -4501,12 +4501,12 @@ export const FRENCH_SANGO = [
     id: 190,
     source: {
       word: 'Mentor',
-      url: '/bundles/main/audio/french/418.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Tölimbï',
-      url: '/bundles/main/audio/sango/261.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -4525,7 +4525,7 @@ export const FRENCH_SANGO = [
     id: 191,
     source: {
       word: 'sournois',
-      url: '/bundles/main/audio/french/2906.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -4549,12 +4549,12 @@ export const FRENCH_SANGO = [
     id: 192,
     source: {
       word: 'Orgueilleux',
-      url: '/bundles/main/audio/french/454.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'Wa fango baba',
-      url: '/bundles/main/audio/sango/289.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -4573,12 +4573,12 @@ export const FRENCH_SANGO = [
     id: 193,
     source: {
       word: 'Généreux',
-      url: '/bundles/main/audio/french/367.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'Wa mungo yé na azo',
-      url: '/bundles/main/audio/sango/224.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -4597,7 +4597,7 @@ export const FRENCH_SANGO = [
     id: 194,
     source: {
       word: 'Sourd',
-      url: '/bundles/main/audio/french/474.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
@@ -4620,12 +4620,12 @@ export const FRENCH_SANGO = [
     id: 195,
     source: {
       word: 'Cruel',
-      url: '/bundles/main/audio/french/343.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'Wa-sioni',
-      url: '/bundles/main/audio/sango/210.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -4644,12 +4644,12 @@ export const FRENCH_SANGO = [
     id: 196,
     source: {
       word: 'crâneur',
-      url: '/bundles/main/audio/french/1433.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'wababa',
-      url: '/bundles/main/audio/sango/1090.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -4668,7 +4668,7 @@ export const FRENCH_SANGO = [
     id: 197,
     source: {
       word: 'espion',
-      url: '/bundles/main/audio/french/1575.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -4691,12 +4691,12 @@ export const FRENCH_SANGO = [
     id: 198,
     source: {
       word: 'campagnard',
-      url: '/bundles/main/audio/french/1230.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'wabênyämä',
-      url: '/bundles/main/audio/sango/932.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -4715,12 +4715,12 @@ export const FRENCH_SANGO = [
     id: 199,
     source: {
       word: 'meurtrier',
-      url: '/bundles/main/audio/french/1900.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'wafängö-zo',
-      url: '/bundles/main/audio/sango/1485.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -4739,7 +4739,7 @@ export const FRENCH_SANGO = [
     id: 200,
     source: {
       word: 'mendiant',
-      url: '/bundles/main/audio/french/1873.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -4762,7 +4762,7 @@ export const FRENCH_SANGO = [
     id: 201,
     source: {
       word: 'traître',
-      url: '/bundles/main/audio/french/2806.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -4786,12 +4786,12 @@ export const FRENCH_SANGO = [
     id: 202,
     source: {
       word: 'escroc',
-      url: '/bundles/main/audio/french/1573.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'walikisï',
-      url: '/bundles/main/audio/sango/1205.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -4810,12 +4810,12 @@ export const FRENCH_SANGO = [
     id: 203,
     source: {
       word: 'Sorcier',
-      url: '/bundles/main/audio/french/751.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'walikundû',
-      url: '/bundles/main/audio/sango/2052.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -4834,12 +4834,12 @@ export const FRENCH_SANGO = [
     id: 204,
     source: {
       word: 'peureux',
-      url: '/bundles/main/audio/french/2151.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'wambeto',
-      url: '/bundles/main/audio/sango/1679.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -4858,12 +4858,12 @@ export const FRENCH_SANGO = [
     id: 205,
     source: {
       word: 'Riche',
-      url: '/bundles/main/audio/french/467.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'wamosoro',
-      url: '/bundles/main/audio/sango/1943.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -4882,7 +4882,7 @@ export const FRENCH_SANGO = [
     id: 206,
     source: {
       word: 'cambrioleur',
-      url: '/bundles/main/audio/french/1227.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -4906,7 +4906,7 @@ export const FRENCH_SANGO = [
     id: 207,
     source: {
       word: 'terroriste',
-      url: '/bundles/main/audio/french/1655.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -4930,12 +4930,12 @@ export const FRENCH_SANGO = [
     id: 208,
     source: {
       word: 'fainéant',
-      url: '/bundles/main/audio/french/1608.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'wasopo',
-      url: '/bundles/main/audio/sango/1229.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -4954,12 +4954,12 @@ export const FRENCH_SANGO = [
     id: 209,
     source: {
       word: 'Paresseux',
-      url: '/bundles/main/audio/french/455.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'wasopo',
-      url: '/bundles/main/audio/sango/1229.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -4978,12 +4978,12 @@ export const FRENCH_SANGO = [
     id: 210,
     source: {
       word: 'exorciste',
-      url: '/bundles/main/audio/french/1593.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'watömbängö-törö',
-      url: '/bundles/main/audio/sango/1219.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -5002,7 +5002,7 @@ export const FRENCH_SANGO = [
     id: 211,
     source: {
       word: 'Essouflé',
-      url: '/bundles/main/audio/french/868.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -5025,12 +5025,12 @@ export const FRENCH_SANGO = [
     id: 212,
     source: {
       word: 'honnête',
-      url: '/bundles/main/audio/french/1677.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'Mbirimbiri',
-      url: '/bundles/main/audio/sango/214.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -5049,7 +5049,7 @@ export const FRENCH_SANGO = [
     id: 213,
     source: {
       word: 'Voleur',
-      url: '/bundles/main/audio/french/754.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -5073,7 +5073,7 @@ export const FRENCH_SANGO = [
     id: 214,
     source: {
       word: 'Paresseux',
-      url: '/bundles/main/audio/french/455.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
@@ -5097,12 +5097,12 @@ export const FRENCH_SANGO = [
     id: 215,
     source: {
       word: 'séducteur',
-      url: '/bundles/main/audio/french/2564.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'wahânda',
-      url: '/bundles/main/audio/sango/1972.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -5121,7 +5121,7 @@ export const FRENCH_SANGO = [
     id: 216,
     source: {
       word: 'raciste',
-      url: '/bundles/main/audio/french/2457.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -5145,7 +5145,7 @@ export const FRENCH_SANGO = [
     id: 217,
     source: {
       word: 'menteur',
-      url: '/bundles/main/audio/french/1880.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -5168,12 +5168,12 @@ export const FRENCH_SANGO = [
     id: 218,
     source: {
       word: 'calcul',
-      url: '/bundles/main/audio/french/1219.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'kônde',
-      url: '/bundles/main/audio/sango/923.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -5192,12 +5192,12 @@ export const FRENCH_SANGO = [
     id: 219,
     source: {
       word: 'Récipient',
-      url: '/bundles/main/audio/french/151.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Kopou',
-      url: '/bundles/main/audio/sango/96.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -5216,12 +5216,12 @@ export const FRENCH_SANGO = [
     id: 220,
     source: {
       word: 'Verre',
-      url: '/bundles/main/audio/french/542.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Kopu',
-      url: '/bundles/main/audio/sango/361.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -5240,12 +5240,12 @@ export const FRENCH_SANGO = [
     id: 221,
     source: {
       word: 'Gobelet',
-      url: '/bundles/main/audio/french/547.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Kopu',
-      url: '/bundles/main/audio/sango/361.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -5264,12 +5264,12 @@ export const FRENCH_SANGO = [
     id: 222,
     source: {
       word: 'Testicules',
-      url: '/bundles/main/audio/french/913.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Korobô',
-      url: '/bundles/main/audio/sango/642.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -5288,12 +5288,12 @@ export const FRENCH_SANGO = [
     id: 223,
     source: {
       word: 'pouce',
-      url: '/bundles/main/audio/french/1055.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'kötä limabôko',
-      url: '/bundles/main/audio/sango/763.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -5312,7 +5312,7 @@ export const FRENCH_SANGO = [
     id: 224,
     source: {
       word: 'famine',
-      url: '/bundles/main/audio/french/1609.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -5335,12 +5335,12 @@ export const FRENCH_SANGO = [
     id: 225,
     source: {
       word: 'Piroguier',
-      url: '/bundles/main/audio/french/926.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Balambo',
-      url: '/bundles/main/audio/sango/649.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -5359,12 +5359,12 @@ export const FRENCH_SANGO = [
     id: 226,
     source: {
       word: 'Coq',
-      url: '/bundles/main/audio/french/191.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'kôlï-kôndo',
-      url: '/bundles/main/audio/sango/774.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -5383,12 +5383,12 @@ export const FRENCH_SANGO = [
     id: 227,
     source: {
       word: 'Coq',
-      url: '/bundles/main/audio/french/191.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Koli Kondo',
-      url: '/bundles/main/audio/sango/122.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -5407,12 +5407,12 @@ export const FRENCH_SANGO = [
     id: 228,
     source: {
       word: 'charcuterie',
-      url: '/bundles/main/audio/french/1419.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'kanda-ngûru',
-      url: '/bundles/main/audio/sango/1081.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -5431,12 +5431,12 @@ export const FRENCH_SANGO = [
     id: 229,
     source: {
       word: 'Poulet',
-      url: '/bundles/main/audio/french/190.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Kondo',
-      url: '/bundles/main/audio/sango/121.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -5455,12 +5455,12 @@ export const FRENCH_SANGO = [
     id: 230,
     source: {
       word: 'Poule',
-      url: '/bundles/main/audio/french/192.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Mama ti Kondo',
-      url: '/bundles/main/audio/sango/123.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -5479,12 +5479,12 @@ export const FRENCH_SANGO = [
     id: 231,
     source: {
       word: 'Oncle',
-      url: '/bundles/main/audio/french/509.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Koya',
-      url: '/bundles/main/audio/sango/335.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -5503,7 +5503,7 @@ export const FRENCH_SANGO = [
     id: 232,
     source: {
       word: 'Aîné',
-      url: '/bundles/main/audio/french/915.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -5526,7 +5526,7 @@ export const FRENCH_SANGO = [
     id: 233,
     source: {
       word: 'chapiteau',
-      url: '/bundles/main/audio/french/1320.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -5548,12 +5548,12 @@ export const FRENCH_SANGO = [
     id: 234,
     source: {
       word: 'cracher',
-      url: '/bundles/main/audio/french/1410.mp3',
+      url: '',
       type: 'verbe',
     },
     target: {
       word: 'kü sörö',
-      url: '/bundles/main/audio/sango/1071.mp3',
+      url: '',
       type: 'Palî',
       name: 'Sango',
     },
@@ -5571,7 +5571,7 @@ export const FRENCH_SANGO = [
     id: 235,
     source: {
       word: 'Court',
-      url: '/bundles/main/audio/french/18.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
@@ -5595,7 +5595,7 @@ export const FRENCH_SANGO = [
     id: 236,
     source: {
       word: 'Près',
-      url: '/bundles/main/audio/french/17.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
@@ -5619,7 +5619,7 @@ export const FRENCH_SANGO = [
     id: 237,
     source: {
       word: 'Chambre',
-      url: '/bundles/main/audio/french/29.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
@@ -5642,12 +5642,12 @@ export const FRENCH_SANGO = [
     id: 238,
     source: {
       word: 'cuisse',
-      url: '/bundles/main/audio/french/1043.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'künï',
-      url: '/bundles/main/audio/sango/741.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -5666,12 +5666,12 @@ export const FRENCH_SANGO = [
     id: 239,
     source: {
       word: 'Travail',
-      url: '/bundles/main/audio/french/79.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'Kusala',
-      url: '/bundles/main/audio/sango/53.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -5690,12 +5690,12 @@ export const FRENCH_SANGO = [
     id: 240,
     source: {
       word: 'Travailler',
-      url: '/bundles/main/audio/french/80.mp3',
+      url: '',
       type: 'verbe',
     },
     target: {
       word: 'Kusala',
-      url: '/bundles/main/audio/sango/53.mp3',
+      url: '',
       type: 'pandôo',
       name: 'Sango',
     },
@@ -5714,12 +5714,12 @@ export const FRENCH_SANGO = [
     id: 241,
     source: {
       word: 'Facile',
-      url: '/bundles/main/audio/french/358.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'wökö',
-      url: '/bundles/main/audio/sango/1136.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -5738,12 +5738,12 @@ export const FRENCH_SANGO = [
     id: 242,
     source: {
       word: 'Chétif',
-      url: '/bundles/main/audio/french/331.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'Wôkô',
-      url: '/bundles/main/audio/sango/204.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -5762,12 +5762,12 @@ export const FRENCH_SANGO = [
     id: 243,
     source: {
       word: 'Fatigué',
-      url: '/bundles/main/audio/french/332.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'Wôkô',
-      url: '/bundles/main/audio/sango/204.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -5786,12 +5786,12 @@ export const FRENCH_SANGO = [
     id: 244,
     source: {
       word: 'Fragile',
-      url: '/bundles/main/audio/french/333.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'Wôkô',
-      url: '/bundles/main/audio/sango/204.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -5810,12 +5810,12 @@ export const FRENCH_SANGO = [
     id: 245,
     source: {
       word: 'Facile',
-      url: '/bundles/main/audio/french/358.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'Wôkô',
-      url: '/bundles/main/audio/sango/204.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -5834,12 +5834,12 @@ export const FRENCH_SANGO = [
     id: 246,
     source: {
       word: 'Abîmé',
-      url: '/bundles/main/audio/french/316.mp3',
+      url: '',
       type: 'adjectif',
     },
     target: {
       word: 'buba',
-      url: '/bundles/main/audio/sango/194.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -5858,12 +5858,12 @@ export const FRENCH_SANGO = [
     id: 247,
     source: {
       word: 'Endommager',
-      url: '/bundles/main/audio/french/317.mp3',
+      url: '',
       type: 'verbe',
     },
     target: {
       word: 'buba',
-      url: '/bundles/main/audio/sango/194.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -5882,12 +5882,12 @@ export const FRENCH_SANGO = [
     id: 248,
     source: {
       word: 'panne',
-      url: '/bundles/main/audio/french/318.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'buba',
-      url: '/bundles/main/audio/sango/194.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -5906,12 +5906,12 @@ export const FRENCH_SANGO = [
     id: 249,
     source: {
       word: 'bousiller',
-      url: '/bundles/main/audio/french/1297.mp3',
+      url: '',
       type: 'nom',
     },
     target: {
       word: 'buba',
-      url: '/bundles/main/audio/sango/194.mp3',
+      url: '',
       type: 'pasûndâ',
       name: 'Sango',
     },
@@ -5930,7 +5930,7 @@ export const FRENCH_SANGO = [
     id: 250,
     source: {
       word: 'cheville',
-      url: '/bundles/main/audio/french/1039.mp3',
+      url: '',
       type: 'nom',
     },
     target: {

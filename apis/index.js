@@ -1,7 +1,7 @@
 //C'est une très bonne pratique de séparer la logique API du reste de l'application.
 import * as frenchLingala from '../Helpers/FrenchLingala';
 import * as frenchSango from '../Helpers/FrenchSango';
-import NetInfo from '@react-native-community/netinfo';
+import {Parameter} from '../config/Parameter';
 
 const API_TOKEN =
   'T/6wiLml8CM8yiuAxl0NJurKWQvb6JW4ttSN1XMLzZeJFwHmVpf0CWO79E5AsTegFec=';
@@ -93,4 +93,10 @@ export function randomTranslation(language) {
 
 export function randomId() {
   return Math.random();
+}
+
+export function createSong(url) {
+  const Sound = require('react-native-sound');
+
+  return url ? new Sound(Parameter.baseUrl + url) : '';
 }

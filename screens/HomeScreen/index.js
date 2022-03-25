@@ -51,7 +51,7 @@ export default function HomeScreen({route, navigation}) {
     route.params?.source,
     route.params?.target,
     route.params?.key,
-  ]);
+  ]);  // N’exécute l’effet que si route.params a changé
 
   const handleTranslations = () => {
     console.log('longueur  ' + translations.length);

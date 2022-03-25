@@ -1,11 +1,57 @@
-import React from 'react';
-import {View, Text, TouchableOpacity, Image} from 'react-native';
+import React, {useState, useEffect} from 'react';
+import {View, Text, Image, TouchableOpacity} from 'react-native';
 import styles from './styles';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import {ImagesUrl} from '../../config/ImagesUrl';
 import Button from '../Button';
+import {createSong} from '../../apis';
 export default function Translation(props) {
   const {source, target, data, navigation, onPress} = props;
+  const [songSource, setSongSource] = useState(createSong(data.source.url));
+  const [songTarget, setSongTarget] = useState(createSong(data.target.url));
+
+
+  // On utilise ce Hook pour indiquer à React que notre composant doit exécuter quelque chose après chaque affichage.
+
+  const playSoundSource = () => {
+    try {
+      songSource.play(success => {
+        console.log('Sound source is playing ' + success);
+      });
+    } catch (e) {
+      console.log(`cannot play the sound source file`, e);
+    }
+  };
+
+  const playSoundTarget = () => {
+    try {
+      songTarget.play(success => {
+        console.log('Sound source is playing ' + success);
+      });
+    } catch (e) {
+      console.log(`cannot play the sound source file`, e);
+    }
+  };
+  const renderAudio = () => {
+    if (data.target?.url && data.target?.url) {
+      return (
+        <View style={styles.resultShare}>
+          <TouchableOpacity
+            style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}
+            onPress={playSoundSource}>
+            <Icon name="volume-up" size={30} color={'#061646'} />
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}  onPress={playSoundTarget}>
+            <Icon name="volume-up" size={30} color={'#061646'} />
+          </TouchableOpacity>
+        </View>
+      );
+    } else {
+      return <View />;
+    }
+  };
+
   const renderTranstion = () => {
     return (
       <View style={styles.translationContainer}>
@@ -36,7 +82,7 @@ export default function Translation(props) {
               <Text style={styles.textDefinition}>{data.target.word}</Text>
             </View>
           </View>
-
+          {renderAudio()}
           <View style={styles.resultExample}>
             <Text style={styles.textExemple}>{data.description_source}</Text>
             <Text style={styles.textExemple}>{data.description_target}</Text>
@@ -98,7 +144,8 @@ export default function Translation(props) {
             </View>
             <View style={{justifyContent: 'center', marginTop: 20}}>
               <Text style={[styles.tabBarInfoText, {fontStyle: 'italic'}]}>
-                Application en cours de maintenance. Veuillez réessayer plus tard
+                Application en cours de maintenance. Veuillez réessayer plus
+                tard
               </Text>
             </View>
           </View>

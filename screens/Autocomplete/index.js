@@ -14,6 +14,7 @@ import styles from './styles';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import ListItem from '../../components/ListItem';
 import Loupe from '../../components/Loupe';
+import Wifi from '../../components/Wifi';
 import {search, randomId} from '../../apis';
 import {Picker} from '@react-native-picker/picker';
 import {ImagesUrl} from '../../config/ImagesUrl';
@@ -98,7 +99,6 @@ export default function Autocomplete({navigation, route}) {
         </View>
       );
     }
-
     return <Loupe />;
   };
   return (

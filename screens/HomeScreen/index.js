@@ -75,7 +75,7 @@ export default function HomeScreen({route, navigation}) {
         return (
           <View style={styles.MultiResultContainer}>
             <Text style={styles.infoTextResult}>
-              Cette définition comporte plusieurs traductions en {target}
+              Cette définition comporte plusieurs traductions en  {source === 'sango' || source === 'lingala' ? 'français' : target}
             </Text>
             {/*Index de la FlatList - la propriété key du keyExtractor doit être une chaîne de caractères*/}
             <FlatList

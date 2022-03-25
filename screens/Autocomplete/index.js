@@ -34,10 +34,6 @@ export default function Autocomplete({navigation, route}) {
   const [listAutocomplete, setListAutocomplete] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const getNetworkInfo = () => {
-    return netInfo.isConnected.toString();
-  };
-
   const onSubmit = () => {
     if (definition == '' || !netInfo.isConnected) {
       console.log('empty definition or wifi off: nothing to do ');

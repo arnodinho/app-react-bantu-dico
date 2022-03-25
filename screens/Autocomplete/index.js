@@ -14,17 +14,19 @@ import styles from './styles';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import ListItem from '../../components/ListItem';
 import Loupe from '../../components/Loupe';
-import Wifi from '../../components/Wifi';
+import WifiOff from '../../components/WifiOff';
 import {search, randomId} from '../../apis';
 import {Picker} from '@react-native-picker/picker';
 import {ImagesUrl} from '../../config/ImagesUrl';
 import LinearGradient from 'react-native-linear-gradient';
 import LoadingScreen from '../LoadingScreen';
+import {useNetInfo} from '@react-native-community/netinfo';
 export default function Autocomplete({navigation, route}) {
   const offsetKeyboard = Platform.select({
     ios: 0,
     android: 70,
   });
+  const netInfo = useNetInfo();
   const [source, setSource] = useState(route.params.source);
   const [target, setTarget] = useState(route.params.target);
   const [definition, setDefinition] = useState('');
@@ -32,11 +34,13 @@ export default function Autocomplete({navigation, route}) {
   const [listAutocomplete, setListAutocomplete] = useState('');
   const [loading, setLoading] = useState(false);
 
-  console.log(route.params.source, target);
+  const getNetworkInfo = () => {
+    return netInfo.isConnected.toString();
+  };
+
   const onSubmit = () => {
-    console.log('Bouton pressed');
-    if (definition == '') {
-      console.log('empty definition: nothing to do ');
+    if (definition == '' || !netInfo.isConnected) {
+      console.log('empty definition or wifi off: nothing to do ');
     } else {
       setLoading(true);
       navigation.navigate('Home', {
@@ -49,7 +53,7 @@ export default function Autocomplete({navigation, route}) {
   };
   const autocomplete = text => {
     setDefinition(text);
-    if (text.length > 2) {
+    if (text.length > 2 && netInfo.isConnected) {
       setLoading(true);
       search(text, source).then(data => {
         setListAutocomplete(data);
@@ -64,6 +68,10 @@ export default function Autocomplete({navigation, route}) {
    *
    */
   const renderContent = () => {
+    if (!netInfo.isConnected) {
+      return <WifiOff />;
+    }
+
     if (loading) {
       return (
         <View style={styles.resultModuleContainer}>

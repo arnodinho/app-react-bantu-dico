@@ -1,6 +1,8 @@
 //C'est une très bonne pratique de séparer la logique API du reste de l'application.
 import * as frenchLingala from '../Helpers/FrenchLingala';
 import * as frenchSango from '../Helpers/FrenchSango';
+import NetInfo from '@react-native-community/netinfo';
+
 const API_TOKEN =
   'T/6wiLml8CM8yiuAxl0NJurKWQvb6JW4ttSN1XMLzZeJFwHmVpf0CWO79E5AsTegFec=';
 

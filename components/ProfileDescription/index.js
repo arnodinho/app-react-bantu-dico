@@ -1,6 +1,7 @@
 import React from 'react';
 import {View, TouchableOpacity, Text, StyleSheet, Image} from 'react-native';
 import PropTypes from 'prop-types';
+import {ImagesUrl} from '../../config/ImagesUrl';
 
 export default function ProfileDescription(props) {
   const {style, image, styleThumb, onPress, name, subName} = props;
@@ -12,7 +13,7 @@ export default function ProfileDescription(props) {
       <Image style={[styles.thumb, styleThumb]} source={image} />
       <View style={{flex: 1, alignItems: 'flex-start'}}>
         <Text style={styles.name}>{name}</Text>
-        <Text>{subName}</Text>
+        <Text style={{color: '#013640'}}>{subName}</Text>
       </View>
     </TouchableOpacity>
   );

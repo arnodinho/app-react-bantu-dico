@@ -182,5 +182,9 @@ export default StyleSheet.create({
   picker: {
     height: 50,
     width: 141,
+    fontSize: 13,
+    color: '#061646',
+    fontWeight: 'bold',
+    textTransform: 'capitalize',
   },
 });

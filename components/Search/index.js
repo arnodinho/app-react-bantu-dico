@@ -38,7 +38,7 @@ export default function Search(props) {
               <Text style={styles.translationText}>
                 {source === 'french' ? 'Français' : source}
               </Text>
-              <Icon name="caret-down" size={25} />
+              <Icon name="caret-down" size={25} color={'#061646'} />
             </View>
             <View style={styles.searchArrow}>
               <View>
@@ -49,7 +49,7 @@ export default function Search(props) {
               <Text style={styles.translationText}>
                 {target === 'french' ? 'Français' : target}
               </Text>
-              <Icon name="caret-down" size={25} />
+              <Icon name="caret-down" size={25} color={'#061646'} />
             </View>
           </View>
         </View>

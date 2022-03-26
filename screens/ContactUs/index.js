@@ -11,6 +11,7 @@ import {
 import styles from './styles';
 import {BaseStyle} from '../../config/BaseStyle';
 import Button from '../../components/Button';
+import {Parameter} from '../../config/Parameter';
 import {SafeAreaView} from 'react-native-safe-area-context';
 
 export default function ContactUs({navigation}) {
@@ -41,21 +42,19 @@ export default function ContactUs({navigation}) {
         message: message != '' ? true : false,
       });
     } else {
-      fetch(
-        'https://sortir-a-bangui-default-rtdb.europe-west1.firebasedatabase.app/contact.json',
-        {
-          method: 'POST',
-          headers: {
-            Accept: 'application/json',
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            lastname: lastname,
-            firstname: firstname,
-            message: message,
-          }),
+      fetch(Parameter.baseUrl + '/contact', {
+        method: 'POST',
+        headers: {
+          Accept: 'application/json',
+          'Content-Type': 'application/json',
         },
-      ).then(response => response.json());
+        body: JSON.stringify({
+          lastname: lastname,
+          firstname: firstname,
+          source: 'app-bantu-dico',
+          message: message,
+        }),
+      }).then(response => response.json());
 
       setLoading(true);
       setTimeout(() => {
@@ -83,6 +82,7 @@ export default function ContactUs({navigation}) {
           </View>
           <TextInput
             onChangeText={text => setLastname(text)}
+            placeholderTextColor={'gray'}
             placeholder="Nom"
             success={success.lastname}
             value={lastname}
@@ -90,6 +90,7 @@ export default function ContactUs({navigation}) {
           />
           <TextInput
             onChangeText={text => setFirstname(text)}
+            placeholderTextColor={'gray'}
             placeholder="Prénom"
             success={success.firstname}
             value={firstname}
@@ -100,12 +101,13 @@ export default function ContactUs({navigation}) {
             onChangeText={text => setMessage(text)}
             textAlignVertical="top"
             multiline={true}
+            placeholderTextColor={'gray'}
             placeholder="Message"
             success={success.message}
             value={message}
           />
         </ScrollView>
-        <View style={{paddingVertical: 15, paddingHorizontal: 20}}>
+        <View style={{paddingVertical: 11, paddingHorizontal: 20}}>
           <Button
             loading={loading}
             style={styles.button}

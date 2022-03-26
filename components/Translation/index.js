@@ -7,9 +7,8 @@ import Button from '../Button';
 import {createSong} from '../../apis';
 export default function Translation(props) {
   const {source, target, data, navigation, onPress} = props;
-  const [songSource, setSongSource] = useState(createSong(data.source.url));
-  const [songTarget, setSongTarget] = useState(createSong(data.target.url));
-
+  const [songSource, setSongSource] = useState(createSong(data.source?.url));
+  const [songTarget, setSongTarget] = useState(createSong(data.target?.url));
 
   // On utilise ce Hook pour indiquer à React que notre composant doit exécuter quelque chose après chaque affichage.
 

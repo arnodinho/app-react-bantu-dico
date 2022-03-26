@@ -68,7 +68,7 @@ function BottomTabNavigator() {
         name="List"
         component={ListScreen}
         options={{
-          title: 'Expressions courantes',
+          title: 'Expressions',
           tabBarIcon: ({focused}) => {
             return (
               <Icon focused={focused} name="book" size={30} color="#900" />
@@ -80,7 +80,7 @@ function BottomTabNavigator() {
         name="Add"
         component={AddScreen}
         options={{
-          title: 'Ajout de traduction',
+          title: 'Ajout',
           tabBarIcon: ({focused}) => {
             return (
               <Icon

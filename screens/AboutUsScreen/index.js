@@ -9,14 +9,14 @@ const ourTeam = [
   {
     id: '1',
     screen: 'Profile1',
-    image: ImagesUrl.profil1,
+    image: ImagesUrl.arnaud,
     subName: 'Développeur',
     name: 'Arnaud YANGA-ESSO',
   },
   {
     id: '2',
     screen: 'Profile2',
-    image: ImagesUrl.profil1,
+    image: ImagesUrl.audrey,
     subName: 'Communication',
     name: 'Audrey YANGA-ESSO',
   },

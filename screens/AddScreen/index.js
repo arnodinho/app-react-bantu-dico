@@ -109,8 +109,9 @@ export default function AddScreen() {
               <View style={{flex: 1}}>
                 <View>
                   <Picker
-                    style={{height: 50, width: 135}}
+                    style={{height: 50, width: 135, color: '#061646'}}
                     selectedValue={target}
+                    dropdownIconColor={'#061646'}
                     onValueChange={(itemValue, itemIndex) =>
                       setTarget(itemValue)
                     }>

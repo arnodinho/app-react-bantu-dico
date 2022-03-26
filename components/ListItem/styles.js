@@ -161,6 +161,8 @@ export default StyleSheet.create({
     marginTop: 1,
     textAlign: 'left',
     fontSize: 20,
+    color: '#061646',
+    textTransform: 'capitalize',
   },
   optionTextSection: {
     margin: 2,

@@ -74,6 +74,7 @@ export default StyleSheet.create({
     fontSize: 15,
     marginTop: 1,
     textAlign: 'center',
+    color: '#061646',
   },
   optionTextSection: {
     margin: 2,
@@ -82,6 +83,7 @@ export default StyleSheet.create({
     textAlign: 'center',
     fontSize: 20,
     fontWeight: 'bold',
+    color: '#061646',
   },
   resulLangage: {
     flex: 1,

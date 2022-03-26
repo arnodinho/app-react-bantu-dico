@@ -129,6 +129,7 @@ export default function Autocomplete({navigation, route}) {
                   <Picker
                     selectedValue={source}
                     style={styles.picker}
+                    dropdownIconColor={'#061646'}
                     onValueChange={(itemValue, itemIndex) =>
                       setSource(itemValue)
                     }>
@@ -146,6 +147,7 @@ export default function Autocomplete({navigation, route}) {
                   <Picker
                     selectedValue={target}
                     style={styles.picker}
+                    dropdownIconColor={'#061646'}
                     onValueChange={(itemValue, itemIndex) =>
                       setTarget(itemValue)
                     }>

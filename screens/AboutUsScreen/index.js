@@ -35,8 +35,8 @@ export default function AboutUsScreen({navigation}) {
       <View style={styles.main}>
         <Text style={styles.tabBarInfoText}>
           Cette application est destinée à la promotion des langues Lingala et
-          Sango. Par cet outil, nous souhaitons rendre disponible à tous et
-          gratuitement la connaissance de ces belles langues, très souvent
+          Sango. Par cet outil, nous souhaitons rendre disponible à tous la 
+          connaissance de ces belles langues, très souvent
           méconnues auprès de la jeune génération.
         </Text>
 

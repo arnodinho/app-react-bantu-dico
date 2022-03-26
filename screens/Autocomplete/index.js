@@ -83,6 +83,7 @@ export default function Autocomplete({navigation, route}) {
             <LoadingScreen />
           ) : (
             <FlatList
+              keyboardShouldPersistTaps={'handled'}
               data={listAutocomplete}
               keyExtractor={item => item.id.toString()}
               renderItem={({item}) => (

@@ -95,6 +95,7 @@ export default function Autocomplete({navigation, route}) {
                       source: source,
                       target: target,
                       definition: item.word,
+                      key: randomId(),
                     })
                   }
                 />

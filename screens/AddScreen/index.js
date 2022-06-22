@@ -62,7 +62,7 @@ export default function AddScreen() {
         style={styles.container}>
         <ScrollView
           contentContainerStyle={{
-            paddingHorizontal: 20,
+            paddingHorizontal: 5,
           }}>
           <View style={styles.main}>
             <Text style={styles.tabBarInfoTitle}>

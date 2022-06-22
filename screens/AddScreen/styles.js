@@ -3,7 +3,7 @@ import {StyleSheet, Platform} from 'react-native';
 export default StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 35,
+    paddingTop: 15,
 
     ...Platform.select({
       ios: {
@@ -80,7 +80,7 @@ export default StyleSheet.create({
   textinput: {
     marginLeft: 5,
     marginRight: 5,
-    height: 36,
+    height: 46,
     borderColor: '#214c98',
     borderWidth: 2,
     paddingLeft: 5,

@@ -54,7 +54,7 @@ export default function ContactUs({navigation}) {
           firstname: firstname,
           lastname: lastname,
           email: email,
-          site: 'app-android-bantu-dico',
+          site: Platform.OS === 'android' ? 'app-android-bantu-dico' : 'app-ios-bantu-dico',
           content: message,
         }),
       }).then(response => response.json());

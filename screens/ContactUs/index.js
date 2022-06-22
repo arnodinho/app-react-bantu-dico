@@ -22,6 +22,7 @@ export default function ContactUs({navigation}) {
 
   const [firstname, setFirstname] = useState('');
   const [lastname, setLastname] = useState('');
+  const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [success, setSuccess] = useState({
     firstname: true,
@@ -34,25 +35,27 @@ export default function ContactUs({navigation}) {
   const [loading, setLoading] = useState(false);
 
   const onSubmit = () => {
-    if (lastname == '' || firstname == '' || message == '') {
+    if (lastname == '' || firstname == '' || email == '' || message == '') {
       setSuccess({
         ...success,
         lastname: lastname != '' ? true : false,
         firstname: firstname != '' ? true : false,
+        email: email != '' ? true : false,
         message: message != '' ? true : false,
       });
     } else {
-      fetch(Parameter.baseUrl + '/contact', {
+      fetch(Parameter.baseUrl + '/api/message', {
         method: 'POST',
         headers: {
           Accept: 'application/json',
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          lastname: lastname,
           firstname: firstname,
-          source: 'app-bantu-dico',
-          message: message,
+          lastname: lastname,
+          email: email,
+          site: 'app-android-bantu-dico',
+          content: message,
         }),
       }).then(response => response.json());
 
@@ -94,6 +97,14 @@ export default function ContactUs({navigation}) {
             placeholder="Prénom"
             success={success.firstname}
             value={firstname}
+            style={styles.textinput}
+          />
+          <TextInput
+            onChangeText={text => setEmail(text)}
+            placeholderTextColor={'gray'}
+            placeholder="Email"
+            success={success.email}
+            value={email}
             style={styles.textinput}
           />
           <TextInput

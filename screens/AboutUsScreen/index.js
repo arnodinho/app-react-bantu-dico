@@ -31,13 +31,13 @@ export default function AboutUsScreen({navigation}) {
   /* Go ahead and delete ExpoConfigView and replace it with your
    * content, we just wanted to give you a quick view of your config */
   return (
-    <ScrollView style={styles.container}>
+    <View style={styles.container}>
       <View style={styles.main}>
         <Text style={styles.tabBarInfoText}>
           Cette application est destinée à la promotion des langues Lingala et
-          Sango. Par cet outil, nous souhaitons rendre disponible à tous la 
-          connaissance de ces belles langues, très souvent
-          méconnues auprès de la jeune génération.
+          Sango. Par cet outil, nous souhaitons rendre disponible à tous la
+          connaissance de ces belles langues, très souvent méconnues auprès de
+          la jeune génération.
         </Text>
 
         <Text style={styles.tabBarInfoText}>
@@ -45,31 +45,35 @@ export default function AboutUsScreen({navigation}) {
           promotion des langues bantoues et de l'Afrique centrale.
         </Text>
       </View>
-      <View style={styles.credits}>
-        <ShareButton name={'share-alt'} size={25} color={'#FFFFFF'} />
-        <Text style={styles.tabBarInfoTitle}>Notre équipe</Text>
+      <View style={styles.team}>
+        <View style={styles.credits}>
+          <ShareButton name={'share-alt'} size={25} color={'#FFFFFF'} />
+          <Text style={styles.tabBarInfoTitle}>Notre équipe</Text>
+        </View>
+        <View style={{paddingHorizontal: 20}}>
+          {ourTeam.map((item, index) => {
+            return (
+              <ProfileDescription
+                key={'service' + index}
+                image={item.image}
+                name={item.name}
+                subName={item.subName}
+                description={item.description}
+                style={{marginBottom: 10}}
+              />
+            );
+          })}
+        </View>
       </View>
-      <View style={{paddingHorizontal: 20}}>
-        {ourTeam.map((item, index) => {
-          return (
-            <ProfileDescription
-              key={'service' + index}
-              image={item.image}
-              name={item.name}
-              subName={item.subName}
-              description={item.description}
-              style={{marginBottom: 10}}
-            />
-          );
-        })}
+      <View style={styles.wrapperButton}>
+        <Button
+          style={styles.button}
+          name="Nous contacter"
+          onPress={() => {
+            navigation.navigate('ContactUs');
+          }}
+        />
       </View>
-      <Button
-        style={styles.button}
-        name="Nous contacter"
-        onPress={() => {
-          navigation.navigate('ContactUs');
-        }}
-      />
-    </ScrollView>
+    </View>
   );
 }

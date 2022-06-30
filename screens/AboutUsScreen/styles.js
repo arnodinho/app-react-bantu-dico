@@ -2,8 +2,8 @@ import {StyleSheet, Platform} from 'react-native';
 
 export default StyleSheet.create({
   container: {
-    flex: 1,
-    paddingTop: 35,
+    flex: 10,
+    paddingTop: 10,
 
     ...Platform.select({
       ios: {
@@ -22,14 +22,13 @@ export default StyleSheet.create({
     borderWidth: 7,
     marginLeft: 5,
     marginRight: 5,
-    marginTop: 15,
     marginBottom: 15,
   },
   tabBarInfoText: {
     marginTop: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    fontSize: 16,
+    fontSize: 15,
     color: '#061646',
     textAlign: 'center',
     marginBottom: 10,
@@ -47,9 +46,16 @@ export default StyleSheet.create({
     fontWeight: 'bold',
   },
   main: {
+    flex: 5,
     marginRight: 2,
     marginLeft: 2,
-    marginTop: 10,
+    marginTop: 5,
+  },
+  team: {
+    flex: 6,
+  },
+  wrapperButton: {
+    flex: 2,
   },
   credits: {
     marginLeft: 2,
@@ -57,7 +63,7 @@ export default StyleSheet.create({
     marginBottom: 10,
   },
   button: {
-    marginTop: 15,
+    marginTop: 12,
     marginLeft: 15,
     marginRight: 15,
   },

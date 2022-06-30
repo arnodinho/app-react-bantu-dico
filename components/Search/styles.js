@@ -136,6 +136,7 @@ export default StyleSheet.create({
     backgroundColor: 'transparent',
     fontSize: 15,
     color: '#fff',
+    paddingBottom: 18,
   },
   gradient: {
     paddingTop: 35,

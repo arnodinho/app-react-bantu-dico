@@ -101,13 +101,13 @@ export default function Translation(props) {
       <View style={styles.translationContainer}>
         <View style={styles.resultContainer}>
           <View style={styles.frown}>
-            <View style={{justifyContent: 'center', marginBottom: 15}}>
+            <View style={{justifyContent: 'center', marginBottom: 10}}>
               <Text style={styles.tabBarInfoText}>Mot non Trouvé</Text>
             </View>
             <View style={{justifyContent: 'center'}}>
               <Icon name="frown-o" size={100} color="#214c98" />
             </View>
-            <View style={{justifyContent: 'center', marginBottom: 10}}>
+            <View style={{justifyContent: 'center', marginBottom: 2}}>
               <Text style={[styles.tabBarInfoText, {fontStyle: 'italic'}]}>
                 Vous connaissez peut être cette traduction et souhaitez nous le
                 faire savoir ?

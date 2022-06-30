@@ -9,12 +9,14 @@ import {
   TextInput,
   Alert,
   Keyboard,
+  StyleSheet,
 } from 'react-native';
 import styles from './styles';
 import {BaseStyle} from '../../config/BaseStyle';
 import Button from '../../components/Button';
 import {SafeAreaView} from 'react-native-safe-area-context';
-import {Picker} from '@react-native-picker/picker';
+import Icon from 'react-native-vector-icons/FontAwesome';
+import RNPickerSelect from 'react-native-picker-select';
 import {createTranslation} from '../../apis';
 
 export default function AddScreen() {
@@ -106,19 +108,26 @@ export default function AddScreen() {
             </View>
 
             <View style={styles.traduction}>
-              <View style={{flex: 1}}>
-                <View>
-                  <Picker
-                    style={{height: 50, width: 135, color: '#061646'}}
-                    selectedValue={target}
-                    dropdownIconColor={'#061646'}
-                    onValueChange={(itemValue, itemIndex) =>
-                      setTarget(itemValue)
-                    }>
-                    <Picker.Item label="Lingala" value="lingala" />
-                    <Picker.Item label="Sango" value="sango" />
-                  </Picker>
-                </View>
+              <View>
+                <RNPickerSelect
+                  onValueChange={itemValue => setTarget(itemValue)}
+                  placeholder={{}}
+                  items={[
+                    {label: 'Lingala', value: 'lingala'},
+                    {label: 'Sango', value: 'sango'},
+                  ]}
+                  Icon={() => {
+                    return (
+                      <Icon
+                        name="caret-down"
+                        size={25}
+                        color={'#061646'}
+                        style={{paddingVertical: 12}}
+                      />
+                    );
+                  }}
+                  style={pickerSelectStyles}
+                />
               </View>
               <View
                 style={{
@@ -151,3 +160,25 @@ export default function AddScreen() {
     </SafeAreaView>
   );
 }
+const pickerSelectStyles = StyleSheet.create({
+  inputIOS: {
+    fontSize: 16,
+    paddingVertical: 12,
+    paddingHorizontal: 10,
+    borderColor: 'gray',
+    fontWeight: 'bold',
+    borderRadius: 4,
+    color: '#061646',
+    paddingRight: 39, // to ensure the text is never behind the icon
+  },
+  inputAndroid: {
+    fontSize: 16,
+    paddingHorizontal: 10,
+    paddingVertical: 8,
+    borderWidth: 0.5,
+    borderColor: 'purple',
+    borderRadius: 8,
+    color: '#061646',
+    paddingRight: 30, // to ensure the text is never behind the icon
+  },
+});

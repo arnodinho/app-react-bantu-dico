@@ -3,7 +3,7 @@ import {StyleSheet, Platform} from 'react-native';
 export default StyleSheet.create({
   translationContainer: {
     flex: 4,
-    marginTop: 10,
+    marginTop: 20,
   },
   resultContainer: {
     flex: 4,
@@ -45,7 +45,7 @@ export default StyleSheet.create({
     textTransform: 'capitalize',
   },
   frown: {
-    paddingTop: 50,
+    paddingTop: 20,
     flex: 1,
     justifyContent: 'flex-start',
     alignItems: 'center',

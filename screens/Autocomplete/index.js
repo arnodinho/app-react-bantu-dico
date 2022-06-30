@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
   Text,
   FlatList,
-  Keyboard,
+  StyleSheet,
 } from 'react-native';
 import styles from './styles';
 import {SafeAreaView} from 'react-native-safe-area-context';
@@ -16,11 +16,12 @@ import ListItem from '../../components/ListItem';
 import Loupe from '../../components/Loupe';
 import WifiOff from '../../components/WifiOff';
 import {search, randomId} from '../../apis';
-import {Picker} from '@react-native-picker/picker';
+import RNPickerSelect from 'react-native-picker-select';
 import {ImagesUrl} from '../../config/ImagesUrl';
 import LinearGradient from 'react-native-linear-gradient';
 import LoadingScreen from '../LoadingScreen';
 import {useNetInfo} from '@react-native-community/netinfo';
+import Icon from 'react-native-vector-icons/FontAwesome';
 export default function Autocomplete({navigation, route}) {
   const offsetKeyboard = Platform.select({
     ios: 0,
@@ -128,17 +129,27 @@ export default function Autocomplete({navigation, route}) {
               />
               <View style={styles.searchSelect}>
                 <View style={styles.searchItem}>
-                  <Picker
-                    selectedValue={source}
-                    style={styles.picker}
-                    dropdownIconColor={'#061646'}
-                    onValueChange={(itemValue, itemIndex) =>
-                      setSource(itemValue)
-                    }>
-                    <Picker.Item label="Français" value="french" />
-                    <Picker.Item label="Sango" value="sango" />
-                    <Picker.Item label="Lingala" value="lingala" />
-                  </Picker>
+                  <RNPickerSelect
+                    value={source}
+                    onValueChange={itemValue => setSource(itemValue)}
+                    placeholder={{}}
+                    items={[
+                      {label: 'Français', value: 'french'},
+                      {label: 'Lingala', value: 'lingala'},
+                      {label: 'Sango', value: 'sango'},
+                    ]}
+                    Icon={() => {
+                      return (
+                        <Icon
+                          name="caret-down"
+                          size={25}
+                          color={'#061646'}
+                          style={{paddingVertical: 12}}
+                        />
+                      );
+                    }}
+                    style={pickerSelectStyles}
+                  />
                 </View>
                 <View style={styles.searchArrow}>
                   <View>
@@ -146,17 +157,27 @@ export default function Autocomplete({navigation, route}) {
                   </View>
                 </View>
                 <View style={styles.searchItem}>
-                  <Picker
-                    selectedValue={target}
-                    style={styles.picker}
-                    dropdownIconColor={'#061646'}
-                    onValueChange={(itemValue, itemIndex) =>
-                      setTarget(itemValue)
-                    }>
-                    <Picker.Item label="Lingala" value="lingala" />
-                    <Picker.Item label="Sango" value="sango" />
-                    <Picker.Item label="Français" value="french" />
-                  </Picker>
+                  <RNPickerSelect
+                    value={target}
+                    onValueChange={itemValue => setTarget(itemValue)}
+                    placeholder={{}}
+                    items={[
+                      {label: 'Lingala', value: 'lingala'},
+                      {label: 'Sango', value: 'sango'},
+                      {label: 'Français', value: 'french'},
+                    ]}
+                    Icon={() => {
+                      return (
+                        <Icon
+                          name="caret-down"
+                          size={25}
+                          color={'#061646'}
+                          style={{paddingVertical: 12}}
+                        />
+                      );
+                    }}
+                    style={pickerSelectStyles}
+                  />
                 </View>
               </View>
             </View>
@@ -178,3 +199,26 @@ export default function Autocomplete({navigation, route}) {
     </SafeAreaView>
   );
 }
+
+const pickerSelectStyles = StyleSheet.create({
+  inputIOS: {
+    fontSize: 16,
+    paddingVertical: 12,
+    paddingHorizontal: 10,
+    borderColor: 'gray',
+    fontWeight: 'bold',
+    borderRadius: 4,
+    color: '#061646',
+    paddingRight: 30, // to ensure the text is never behind the icon
+  },
+  inputAndroid: {
+    fontSize: 16,
+    paddingHorizontal: 10,
+    paddingVertical: 8,
+    borderWidth: 0.5,
+    borderColor: 'purple',
+    borderRadius: 8,
+    color: '#061646',
+    paddingRight: 30, // to ensure the text is never behind the icon
+  },
+});

@@ -47,7 +47,6 @@ function BottomTabNavigator() {
         tabBarShowIcon: true,
         tabBarLabelStyle: {
           fontSize: 12,
-          fontFamily: 'Raleway',
         },
         tabBarStyle: {borderTopWidth: 1},
       }}>

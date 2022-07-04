@@ -6,7 +6,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 
 export default function ShareButton(props) {
   const {size, name, style, color} = props;
-  const linked = Platform.OS === 'android' ? Parameter.android : Parameter.ios;
+  const linked = Parameter.ios;
 
   return (
     <TouchableOpacity
